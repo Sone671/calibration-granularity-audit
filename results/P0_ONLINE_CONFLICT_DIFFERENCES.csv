@@ -1,0 +1,71 @@
+﻿dataset,forecaster_key,window,window_order,static_indicator,aci_indicator,pid_indicator,aci_minus_static,pid_minus_static,pid_minus_aci
+London,lgbm,2013-03,0,1,0,0,-1,-1,0
+London,lgbm,2013-04,1,1,0,0,-1,-1,0
+London,lgbm,2013-05,2,1,0,0,-1,-1,0
+London,lgbm,2013-06,3,0,0,0,0,0,0
+London,lgbm,2013-07,4,0,0,0,0,0,0
+London,lgbm,2013-08,5,0,0,0,0,0,0
+London,lgbm,2013-09,6,1,0,0,-1,-1,0
+London,lgbm,2013-10,7,1,0,0,-1,-1,0
+London,lgbm,2013-11,8,1,0,0,-1,-1,0
+London,lgbm,2013-12,9,0,0,0,0,0,0
+London,lgbm,2014-01,10,0,1,0,1,0,-1
+Ausgrid,lgbm,2012-07,0,0,0,0,0,0,0
+Ausgrid,lgbm,2012-08,1,0,0,0,0,0,0
+Ausgrid,lgbm,2012-09,2,1,0,0,-1,-1,0
+Ausgrid,lgbm,2012-10,3,0,0,0,0,0,0
+Ausgrid,lgbm,2012-11,4,0,0,0,0,0,0
+Ausgrid,lgbm,2012-12,5,0,0,0,0,0,0
+Ausgrid,lgbm,2013-01,6,0,0,0,0,0,0
+Ausgrid,lgbm,2013-02,7,0,0,0,0,0,0
+Ausgrid,lgbm,2013-03,8,0,0,0,0,0,0
+Ausgrid,lgbm,2013-04,9,1,0,0,-1,-1,0
+Ausgrid,lgbm,2013-05,10,1,0,0,-1,-1,0
+Ausgrid,lgbm,2013-06,11,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-01,0,1,0,0,-1,-1,0
+UCI Electricity,lgbm,2014-02,1,1,0,0,-1,-1,0
+UCI Electricity,lgbm,2014-03,2,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-04,3,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-05,4,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-06,5,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-07,6,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-08,7,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-09,8,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-10,9,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-11,10,0,0,0,0,0,0
+UCI Electricity,lgbm,2014-12,11,0,1,0,1,0,-1
+London,persistence,2013-03,0,0,0,0,0,0,0
+London,persistence,2013-04,1,1,1,0,0,-1,-1
+London,persistence,2013-05,2,1,1,0,0,-1,-1
+London,persistence,2013-06,3,1,0,0,-1,-1,0
+London,persistence,2013-07,4,0,0,0,0,0,0
+London,persistence,2013-08,5,0,0,0,0,0,0
+London,persistence,2013-09,6,1,0,0,-1,-1,0
+London,persistence,2013-10,7,0,0,0,0,0,0
+London,persistence,2013-11,8,1,0,0,-1,-1,0
+London,persistence,2013-12,9,1,0,0,-1,-1,0
+London,persistence,2014-01,10,0,0,0,0,0,0
+Ausgrid,persistence,2012-07,0,0,0,0,0,0,0
+Ausgrid,persistence,2012-08,1,0,0,0,0,0,0
+Ausgrid,persistence,2012-09,2,0,0,0,0,0,0
+Ausgrid,persistence,2012-10,3,0,0,0,0,0,0
+Ausgrid,persistence,2012-11,4,0,0,0,0,0,0
+Ausgrid,persistence,2012-12,5,0,0,0,0,0,0
+Ausgrid,persistence,2013-01,6,0,0,0,0,0,0
+Ausgrid,persistence,2013-02,7,0,0,0,0,0,0
+Ausgrid,persistence,2013-03,8,0,0,0,0,0,0
+Ausgrid,persistence,2013-04,9,0,0,0,0,0,0
+Ausgrid,persistence,2013-05,10,1,0,0,-1,-1,0
+Ausgrid,persistence,2013-06,11,1,0,0,-1,-1,0
+UCI Electricity,persistence,2014-01,0,0,0,0,0,0,0
+UCI Electricity,persistence,2014-02,1,0,0,0,0,0,0
+UCI Electricity,persistence,2014-03,2,0,0,0,0,0,0
+UCI Electricity,persistence,2014-04,3,0,0,0,0,0,0
+UCI Electricity,persistence,2014-05,4,0,0,0,0,0,0
+UCI Electricity,persistence,2014-06,5,0,0,0,0,0,0
+UCI Electricity,persistence,2014-07,6,0,0,0,0,0,0
+UCI Electricity,persistence,2014-08,7,1,0,0,-1,-1,0
+UCI Electricity,persistence,2014-09,8,0,0,0,0,0,0
+UCI Electricity,persistence,2014-10,9,0,0,0,0,0,0
+UCI Electricity,persistence,2014-11,10,0,0,0,0,0,0
+UCI Electricity,persistence,2014-12,11,0,0,0,0,0,0

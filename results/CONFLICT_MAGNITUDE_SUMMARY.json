@@ -1,0 +1,9 @@
+{
+  "strict_conflicts": 67,
+  "mean_margin": 0.004071714402052884,
+  "median_margin": 0.003148674242424196,
+  "q25_margin": 0.0015262384544151983,
+  "q75_margin": 0.005425633097223,
+  "mean_tradeoff_length": 0.01185192414770253,
+  "median_user_weight_switch_threshold": 0.3926496825419013
+}

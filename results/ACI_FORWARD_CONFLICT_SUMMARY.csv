@@ -1,0 +1,7 @@
+﻿dataset,forecaster,windows,static_gcr,aci_gcr,static_reverse_gcr,aci_reverse_gcr
+London,lightgbm_quantile,11,0.5454545454545454,0.09090909090909091,0.0,0.0
+Ausgrid,lightgbm_quantile,12,0.25,0.0,0.0,0.0
+UCI Electricity,lightgbm_quantile,12,0.16666666666666666,0.08333333333333333,0.0,0.0
+London,persistence_quantile_interval,11,0.5454545454545454,0.18181818181818182,0.0,0.0
+Ausgrid,persistence_quantile_interval,12,0.16666666666666666,0.0,0.08333333333333333,0.0
+UCI Electricity,persistence_quantile_interval,12,0.08333333333333333,0.0,0.0,0.0

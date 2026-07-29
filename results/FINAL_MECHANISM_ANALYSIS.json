@@ -1,0 +1,194 @@
+{
+  "rows": 280,
+  "scaling": {
+    "coverage": {
+      "mean": 0.85,
+      "std": 0.04999999999999999
+    },
+    "horizon_hours": {
+      "mean": 3.5,
+      "std": 2.5
+    },
+    "raw_picp_abs_gap": {
+      "mean": 0.02546272239636875,
+      "std": 0.017924201043512486
+    },
+    "abs_global_correction": {
+      "mean": 0.08192977988584961,
+      "std": 0.13055740232651508
+    },
+    "user_correction_std": {
+      "mean": 0.2445002531237845,
+      "std": 0.22543335461596398
+    },
+    "group_correction_range": {
+      "mean": 0.12997476967454102,
+      "std": 0.16193150376726934
+    }
+  },
+  "logistic": {
+    "converged": true,
+    "iterations": 6,
+    "condition_number": 68.79821689145462,
+    "unstable": false,
+    "unstable_reasons": [],
+    "coefficients": [
+      {
+        "term": "intercept",
+        "coefficient": -1.0760474682432946,
+        "standard_error_model_based": 0.4162749069904693,
+        "z": -2.5849443484901933,
+        "p_value_model_based": 0.009739471628426257,
+        "odds_ratio": 0.34094044390964573
+      },
+      {
+        "term": "dataset=London",
+        "coefficient": 0.9217128013057029,
+        "standard_error_model_based": 0.3654675316878257,
+        "z": 2.522010086775669,
+        "p_value_model_based": 0.011668636224728628,
+        "odds_ratio": 2.513591988632871
+      },
+      {
+        "term": "dataset=UCI Electricity",
+        "coefficient": -1.2624243206943682,
+        "standard_error_model_based": 0.5652467878595017,
+        "z": -2.2334037942523572,
+        "p_value_model_based": 0.025522328203100988,
+        "odds_ratio": 0.2829671910643625
+      },
+      {
+        "term": "forecaster=persistence_quantile_interval",
+        "coefficient": -0.2371128720157998,
+        "standard_error_model_based": 0.5925024669669603,
+        "z": -0.4001888350433179,
+        "p_value_model_based": 0.6890174374170621,
+        "odds_ratio": 0.7889022380062044
+      },
+      {
+        "term": "z(coverage)",
+        "coefficient": -0.011021262525137635,
+        "standard_error_model_based": 0.165220364564641,
+        "z": -0.06670644114712423,
+        "p_value_model_based": 0.9468154064422966,
+        "odds_ratio": 0.9890392490799016
+      },
+      {
+        "term": "z(horizon_hours)",
+        "coefficient": -0.1168961411980615,
+        "standard_error_model_based": 0.21635299737126631,
+        "z": -0.5403028505191692,
+        "p_value_model_based": 0.5889881928902787,
+        "odds_ratio": 0.889677589213784
+      },
+      {
+        "term": "z(raw_picp_abs_gap)",
+        "coefficient": -0.2331443182846408,
+        "standard_error_model_based": 0.2245864976656035,
+        "z": -1.0381047868326412,
+        "p_value_model_based": 0.2992212731356486,
+        "odds_ratio": 0.7920392595284093
+      },
+      {
+        "term": "z(abs_global_correction)",
+        "coefficient": -0.3718801741967631,
+        "standard_error_model_based": 0.35117469518733063,
+        "z": -1.058960623567673,
+        "p_value_model_based": 0.28961771296877353,
+        "odds_ratio": 0.6894368498991963
+      },
+      {
+        "term": "z(user_correction_std)",
+        "coefficient": 0.22588356772082643,
+        "standard_error_model_based": 0.3962051858222787,
+        "z": 0.5701176456134234,
+        "p_value_model_based": 0.5685979077924439,
+        "odds_ratio": 1.2534297171030664
+      },
+      {
+        "term": "z(group_correction_range)",
+        "coefficient": 0.025597793561940474,
+        "standard_error_model_based": 0.32038916174169463,
+        "z": 0.07989594099496419,
+        "p_value_model_based": 0.9363200181279021,
+        "odds_ratio": 1.0259282305407906
+      }
+    ]
+  },
+  "linear": {
+    "response": "delta_group_gap_user_minus_global",
+    "r_squared": 0.4306045154973773,
+    "coefficients": [
+      {
+        "term": "intercept",
+        "coefficient": -0.0014906823964430042,
+        "hc1_standard_error": 0.003018764315228802,
+        "z": -0.49380549151284786,
+        "p_value_normal_approximation": 0.6214435544949273
+      },
+      {
+        "term": "dataset=London",
+        "coefficient": 0.003348979658553225,
+        "hc1_standard_error": 0.0026073637911660937,
+        "z": 1.284431297964546,
+        "p_value_normal_approximation": 0.19899108777682536
+      },
+      {
+        "term": "dataset=UCI Electricity",
+        "coefficient": -0.024073929202339115,
+        "hc1_standard_error": 0.0042408281767800145,
+        "z": -5.676704690407434,
+        "p_value_normal_approximation": 1.3731422217185557e-08
+      },
+      {
+        "term": "forecaster=persistence_quantile_interval",
+        "coefficient": -0.008255356622510703,
+        "hc1_standard_error": 0.003915777725755358,
+        "z": -2.108229118372196,
+        "p_value_normal_approximation": 0.03501117572619312
+      },
+      {
+        "term": "z(coverage)",
+        "coefficient": 0.001634942584680865,
+        "hc1_standard_error": 0.0011982439808501553,
+        "z": 1.3644488191135093,
+        "p_value_normal_approximation": 0.17242635195119072
+      },
+      {
+        "term": "z(horizon_hours)",
+        "coefficient": -0.0012614386482037616,
+        "hc1_standard_error": 0.0011980921156979553,
+        "z": -1.05287283980573,
+        "p_value_normal_approximation": 0.2923992755627102
+      },
+      {
+        "term": "z(raw_picp_abs_gap)",
+        "coefficient": -0.0021546175473368557,
+        "hc1_standard_error": 0.0018263568668380281,
+        "z": -1.1797352349144914,
+        "p_value_normal_approximation": 0.23810553538219092
+      },
+      {
+        "term": "z(abs_global_correction)",
+        "coefficient": -0.0017068335541440306,
+        "hc1_standard_error": 0.0028598627995246304,
+        "z": -0.5968235799380803,
+        "p_value_normal_approximation": 0.5506251731155306
+      },
+      {
+        "term": "z(user_correction_std)",
+        "coefficient": 0.010202464029334096,
+        "hc1_standard_error": 0.003971517152544723,
+        "z": 2.5689084643124187,
+        "p_value_normal_approximation": 0.010201940144330278
+      },
+      {
+        "term": "z(group_correction_range)",
+        "coefficient": -0.010605694676273158,
+        "hc1_standard_error": 0.0028397547108115367,
+        "z": -3.7347220997275126,
+        "p_value_normal_approximation": 0.0001879225837836288
+      }
+    ]
+  }
+}

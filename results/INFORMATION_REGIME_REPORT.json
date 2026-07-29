@@ -1,0 +1,13 @@
+{
+  "protocol": "FROZEN_INFORMATION_REGIME_COMPARISON_PROTOCOL.md",
+  "unique_dataset_month_windows": 35,
+  "primary_predictor_window_observations": 70,
+  "unified_panel_rows": 980,
+  "pair_rows": 350,
+  "bootstrap_repetitions": 10000,
+  "block_lengths_months": [
+    2,
+    3
+  ],
+  "interpretation": "ACI and CSGR are reported under distinct label-feedback regimes; no cross-regime superiority claim is made."
+}

@@ -1,0 +1,30 @@
+{
+  "audit": {
+    "london": {
+      "picp": 0.0,
+      "mpiw": 0.0,
+      "winkler_interval_score": 0.0,
+      "macro_user_abs_coverage_gap": 0.0,
+      "user_coverage_std": 0.0,
+      "max_abs_cluster_coverage_gap": 0.0
+    },
+    "ausgrid": {
+      "picp": 0.0,
+      "mpiw": 0.0,
+      "winkler_interval_score": 0.0,
+      "macro_user_abs_coverage_gap": 0.0,
+      "user_coverage_std": 0.0,
+      "max_abs_cluster_coverage_gap": 0.0
+    },
+    "uci": {
+      "picp": 0.0,
+      "mpiw": 0.0,
+      "winkler_interval_score": 0.0,
+      "macro_user_abs_coverage_gap": 0.0,
+      "user_coverage_std": 0.0,
+      "max_abs_cluster_coverage_gap": 0.0
+    }
+  },
+  "replicates": 10000,
+  "seed": 20260729
+}

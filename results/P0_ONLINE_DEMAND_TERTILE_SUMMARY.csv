@@ -1,0 +1,3 @@
+﻿forecaster_key,windows,static_max_conflicts,static_max_gcr,static_weighted_conflicts,static_weighted_gcr,aci_max_conflicts,aci_max_gcr,aci_weighted_conflicts,aci_weighted_gcr,pid_max_conflicts,pid_max_gcr,pid_weighted_conflicts,pid_weighted_gcr
+lgbm,35,16,0.45714285714285713,13,0.37142857142857144,2,0.05714285714285714,4,0.11428571428571428,0,0.0,0,0.0
+persistence,35,11,0.3142857142857143,11,0.3142857142857143,2,0.05714285714285714,2,0.05714285714285714,0,0.0,0,0.0

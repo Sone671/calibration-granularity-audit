@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-07-28",
+  "contains_raw_data": false,
+  "archives": {
+    "london": {
+      "source_url": "https://data.london.gov.uk/dataset/smartmeter-energy-consumption-data-in-london-households-vqm0d",
+      "local_filename": "Partitioned LCL Data.zip",
+      "archive_bytes": 795722689,
+      "archive_sha256": "149a6a9c43c622fd0a14b7d11be055665317d3018d9fb7e1043bd51420bfaea5",
+      "zip_crc_check": "passed",
+      "member_count": 168,
+      "member_manifest_sha256": "8c53845262dfb509e9bddbadb893c6073f2cb8ab029a9eabeb7296100efb2f8e",
+      "selected_members": []
+    },
+    "ausgrid": {
+      "source_url": "https://pierreh.eu/downloads/Ausgrid_solar_home_data.zip",
+      "local_filename": "Ausgrid_solar_home_data.zip",
+      "archive_bytes": 57038633,
+      "archive_sha256": "5a766f52b6c8b3b72730380f4422e478934bc94640a4b089dd0e0e3c055c5d82",
+      "zip_crc_check": "passed",
+      "member_count": 6,
+      "member_manifest_sha256": "05d3aaff793b52c5d462b031daee8794405ae3d7166689bc0610ff6621d4f0ce",
+      "selected_members": [
+        {
+          "name": "Solar home 2010-2011.csv",
+          "uncompressed_bytes": 63621419,
+          "sha256": "2fc1f615e22fbd8ec350cdb19f7465d3a038453fc2ffd19473ef1bd38fd28289"
+        },
+        {
+          "name": "Solar home 2011-2012.csv",
+          "uncompressed_bytes": 64222510,
+          "sha256": "a7d6abd1369311a5566e00d249141fd8aec28e9faba0bc928788607d961fc8c8"
+        },
+        {
+          "name": "Solar home 2012-2013.csv",
+          "uncompressed_bytes": 63782724,
+          "sha256": "e4be46b3c9991c65735a9545319a2f1c33be8e639c75a17a88e0323a8e5098be"
+        }
+      ]
+    },
+    "uci": {
+      "source_url": "https://archive.ics.uci.edu/static/public/321/electricityloaddiagrams20112014.zip",
+      "local_filename": "electricityloaddiagrams20112014.full.zip",
+      "archive_bytes": 261335609,
+      "archive_sha256": "f6c4d0e0df12ecdb9ea008dd6eef3518adb52c559d04a9bac2e1b81dcfc8d4e1",
+      "zip_crc_check": "passed",
+      "member_count": 3,
+      "member_manifest_sha256": "278a2e380a2ed4332ad62ee91d27bb0c3e3cc3664fe4c107da21c1b2be5fdff9",
+      "selected_members": [
+        {
+          "name": "LD2011_2014.txt",
+          "uncompressed_bytes": 710998915,
+          "sha256": "d51565f2cb5a6b768d06ba1bbd3c084c6e2f3aab07f00c6f2dcb80e90175124b"
+        }
+      ]
+    }
+  }
+}

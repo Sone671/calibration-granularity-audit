@@ -1,0 +1,589 @@
+﻿kind,comparison,stratum,metric,block_months,estimate,ci_low,ci_high
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_picp,2,-0.00043534559361668566,-0.005210777315960335,0.004269225743632557
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_mpiw,2,-0.0126297513794314,-0.6268931959482446,0.6270889118526117
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_winkler_interval_score,2,-0.09368955372742369,-0.30898206648871696,0.057328140886855714
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_macro_user_abs_coverage_gap,2,-0.0022362606141946868,-0.0035597336753746232,-0.0010248251901360638
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_max_abs_cluster_coverage_gap,2,-0.005349107302944369,-0.009113052881187581,-0.0013839277088663463
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_joint_loss,2,-0.003792683958569526,-0.006188569151137621,-0.0013716947044611967
+paired_metric,aci_global_vs_static_global,all_synchronized,relative_mpiw_change,2,0.0004630222749914602,-0.018362325207659732,0.01943797524361545
+paired_metric,aci_global_vs_static_global,all_synchronized,relative_winkler_interval_score_change,2,-0.0016834815622170378,-0.002804696525238032,-0.0007444511245396586
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_picp,3,-0.00043534559361668566,-0.005356294197094683,0.00469204478738466
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_mpiw,3,-0.0126297513794314,-0.5836270663539068,0.5923946983454846
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_winkler_interval_score,3,-0.09368955372742369,-0.2867535001210724,0.04984581970708611
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_macro_user_abs_coverage_gap,3,-0.0022362606141946868,-0.0034500317154163114,-0.0010315582515955052
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_max_abs_cluster_coverage_gap,3,-0.005349107302944369,-0.009138462232506611,-0.001293264658629008
+paired_metric,aci_global_vs_static_global,all_synchronized,delta_joint_loss,3,-0.003792683958569526,-0.006149449014534697,-0.0013259260588803425
+paired_metric,aci_global_vs_static_global,all_synchronized,relative_mpiw_change,3,0.0004630222749914602,-0.019298617497415616,0.02145110773068758
+paired_metric,aci_global_vs_static_global,all_synchronized,relative_winkler_interval_score_change,3,-0.0016834815622170378,-0.0026894943499082297,-0.0007459372044730786
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_picp,2,0.0015394251675808675,-0.0030346348409330606,0.005848812049723725
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_mpiw,2,0.0005351379430952365,-0.0009207343899787859,0.0019507903496625613
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_winkler_interval_score,2,-7.440090509542678e-05,-0.00012184120853248048,-3.451404098285862e-05
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,2,-0.0007495552179107671,-0.0012149968233418507,-0.00034001230705299636
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.006088940286290884,-0.00827371263055416,-0.003987313815808787
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_joint_loss,2,-0.003419247752100825,-0.004713939024772744,-0.0022060182664909826
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,relative_mpiw_change,2,0.0009980552764409267,-0.002203304848397294,0.004022990208382442
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,relative_winkler_interval_score_change,2,-0.00010216385816658013,-0.00017041426037708843,-4.918404202057037e-05
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_picp,3,0.0015394251675808675,-0.002400479160209181,0.005986654004273249
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_mpiw,3,0.0005351379430952365,-0.0007192130728846715,0.0019893281321859088
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_winkler_interval_score,3,-7.440090509542678e-05,-0.00011934486433815746,-3.272095056095862e-05
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,3,-0.0007495552179107671,-0.0011837008404658265,-0.00031932032501809257
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.006088940286290884,-0.00803988220401731,-0.0037685105188176413
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,delta_joint_loss,3,-0.003419247752100825,-0.004595245825706583,-0.00211421335124802
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,relative_mpiw_change,3,0.0009980552764409267,-0.0017430568256684108,0.0040400659296858646
+paired_metric,aci_global_vs_static_global,Ausgrid|lgbm,relative_winkler_interval_score_change,3,-0.00010216385816658013,-0.00016326225830544136,-4.649951128823921e-05
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_picp,2,-0.0011542179056204434,-0.01959683408589878,0.01727921507823767
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_mpiw,2,-0.0014696457177031848,-0.04933368372550198,0.04574995075038808
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_winkler_interval_score,2,-0.007200934273479204,-0.01376775075514753,-0.001185023450182306
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,2,-0.007152652195604515,-0.013528325389190599,-0.0012052245145250016
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,2,-0.018109686365548567,-0.029356883304597032,-0.007189302763672087
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_joint_loss,2,-0.01263116928057654,-0.02144144070870045,-0.004302017141565708
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,relative_mpiw_change,2,0.005967897702266023,-0.08102976709577163,0.09775200955341487
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,relative_winkler_interval_score_change,2,-0.006128239393870778,-0.012083773957784658,-0.0011645305495568445
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_picp,3,-0.0011542179056204434,-0.020868041463237823,0.018895595940213727
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_mpiw,3,-0.0014696457177031848,-0.05097013472369751,0.04821793488599331
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_winkler_interval_score,3,-0.007200934273479204,-0.013234733836682167,-0.001031947424958296
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,3,-0.007152652195604515,-0.01288104289287668,-0.0011236853829771282
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,3,-0.018109686365548567,-0.028924829623466767,-0.006794576892963433
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,delta_joint_loss,3,-0.01263116928057654,-0.02097414838951822,-0.004026945375556396
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,relative_mpiw_change,3,0.005967897702266023,-0.08676449619829019,0.10486032806217127
+paired_metric,aci_global_vs_static_global,Ausgrid|persistence,relative_winkler_interval_score_change,3,-0.006128239393870778,-0.01142980139285732,-0.001001725271577805
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_picp,2,0.0014849926488215855,-0.0026020808620672024,0.005188807693346378
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_mpiw,2,0.00028698881537414766,-0.0005279958558249999,0.0009986020299928764
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_winkler_interval_score,2,-2.9247950732205005e-05,-6.119590895380376e-05,-6.300954457285422e-06
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_macro_user_abs_coverage_gap,2,-0.0005210116671509726,-0.0008104147160880217,-0.0002634414509749554
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.004091710895729508,-0.007998874332606426,-0.00032520448748491685
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_joint_loss,2,-0.0023063612814402407,-0.0043849330138845816,-0.0003391394020466249
+paired_metric,aci_global_vs_static_global,London|lgbm,relative_mpiw_change,2,0.0007760867740844202,-0.0023213271620337495,0.0034819085619195254
+paired_metric,aci_global_vs_static_global,London|lgbm,relative_winkler_interval_score_change,2,-6.59256967538491e-05,-0.0001485520134919626,-9.832587220682047e-06
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_picp,3,0.0014849926488215855,-0.002146489207829745,0.005018392706835577
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_mpiw,3,0.00028698881537414766,-0.0004367407268570151,0.0009923848156219162
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_winkler_interval_score,3,-2.9247950732205005e-05,-6.128697509064337e-05,-6.755014869211625e-06
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_macro_user_abs_coverage_gap,3,-0.0005210116671509726,-0.0008235872980320277,-0.0002630704272684539
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.004091710895729508,-0.007879458874665353,-0.00045471624746550406
+paired_metric,aci_global_vs_static_global,London|lgbm,delta_joint_loss,3,-0.0023063612814402407,-0.004323496081752496,-0.00040353988484929677
+paired_metric,aci_global_vs_static_global,London|lgbm,relative_mpiw_change,3,0.0007760867740844202,-0.001954824330293885,0.0033767182006596147
+paired_metric,aci_global_vs_static_global,London|lgbm,relative_winkler_interval_score_change,3,-6.59256967538491e-05,-0.0001490172355330236,-1.0264177495741795e-05
+paired_metric,aci_global_vs_static_global,London|persistence,delta_picp,2,-0.0013256707866122158,-0.015372512335364501,0.01325695079074084
+paired_metric,aci_global_vs_static_global,London|persistence,delta_mpiw,2,-0.0030775029933046605,-0.023480279850219554,0.017513370045142054
+paired_metric,aci_global_vs_static_global,London|persistence,delta_winkler_interval_score,2,-0.0022488456321416617,-0.0032541427284794645,-0.0012279557734943874
+paired_metric,aci_global_vs_static_global,London|persistence,delta_macro_user_abs_coverage_gap,2,-0.004040452418730528,-0.007704061739322333,-0.0007057096279904091
+paired_metric,aci_global_vs_static_global,London|persistence,delta_max_abs_cluster_coverage_gap,2,-0.018080329349713528,-0.025304749890843404,-0.009185022597207227
+paired_metric,aci_global_vs_static_global,London|persistence,delta_joint_loss,2,-0.011060390884222027,-0.016026045636524645,-0.00566448285004267
+paired_metric,aci_global_vs_static_global,London|persistence,relative_mpiw_change,2,-0.00512360289467343,-0.06384366908184026,0.05554551954525079
+paired_metric,aci_global_vs_static_global,London|persistence,relative_winkler_interval_score_change,2,-0.0027325983699002052,-0.0038709391616265024,-0.0014826610147846207
+paired_metric,aci_global_vs_static_global,London|persistence,delta_picp,3,-0.0013256707866122158,-0.016947845464332135,0.015275247846699395
+paired_metric,aci_global_vs_static_global,London|persistence,delta_mpiw,3,-0.0030775029933046605,-0.02606937971100841,0.020840287199965453
+paired_metric,aci_global_vs_static_global,London|persistence,delta_winkler_interval_score,3,-0.0022488456321416617,-0.0030831627697010784,-0.0012676852140950682
+paired_metric,aci_global_vs_static_global,London|persistence,delta_macro_user_abs_coverage_gap,3,-0.004040452418730528,-0.007797086751256214,-0.0008150490954338828
+paired_metric,aci_global_vs_static_global,London|persistence,delta_max_abs_cluster_coverage_gap,3,-0.018080329349713528,-0.02543272402152288,-0.008581736556153729
+paired_metric,aci_global_vs_static_global,London|persistence,delta_joint_loss,3,-0.011060390884222027,-0.01603783910809396,-0.005450098270525691
+paired_metric,aci_global_vs_static_global,London|persistence,relative_mpiw_change,3,-0.00512360289467343,-0.07105153426946695,0.0648483654441955
+paired_metric,aci_global_vs_static_global,London|persistence,relative_winkler_interval_score_change,3,-0.0027325983699002052,-0.003808908322596023,-0.0014826500525997113
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_picp,2,-0.0006729119674803441,-0.0039058481504465337,0.0023546775662979433
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_mpiw,2,0.25038197441738436,-0.29612464371601277,0.7799998727002981
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_winkler_interval_score,2,0.005936603138186077,-0.17206137081581593,0.17737682951484146
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,2,-0.00021160215069393243,-0.0012284797065644914,0.0010422408609623763
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,2,0.0034008460019337244,-0.01452520777349621,0.02439908043704567
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_joint_loss,2,0.001594621925619897,-0.007809343031425684,0.012674764433945851
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,relative_mpiw_change,2,0.0006830982900235776,-0.0007344006826235654,0.0020321237837969326
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,relative_winkler_interval_score_change,2,1.7211762303501693e-05,-0.00039279643471562667,0.0003791673913225486
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_picp,3,-0.0006729119674803441,-0.0034374010518321034,0.00229369791098194
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_mpiw,3,0.25038197441738436,-0.20792270078601804,0.7693752451545445
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_winkler_interval_score,3,0.005936603138186077,-0.12911091358994042,0.17387073060401784
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,3,-0.00021160215069393243,-0.0012463008710214662,0.000904743430132907
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,3,0.0034008460019337244,-0.013381607499757893,0.02425368575906204
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,delta_joint_loss,3,0.001594621925619897,-0.007351889494653808,0.01252695660962736
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,relative_mpiw_change,3,0.0006830982900235776,-0.0004166372544634489,0.0019617995896014473
+paired_metric,aci_global_vs_static_global,UCI Electricity|lgbm,relative_winkler_interval_score_change,3,1.7211762303501693e-05,-0.00027561812487165576,0.0003606691995207429
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_picp,2,-0.0023978562976026685,-0.005845664836137021,0.0015616638565552358
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_mpiw,2,-0.3205630450263565,-3.8286167916091824,3.6112489335750433
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_winkler_interval_score,2,-0.5430954122519486,-1.7629422790136648,0.31888165950477304
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,2,-0.0007497019398684147,-0.0013002740288770055,-0.0002216405193040907
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,2,0.009919024941053031,2.2816275056306012e-06,0.019603855881344317
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_joint_loss,2,0.004584661500592309,-0.00033952721940568763,0.009293365160222385
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,relative_mpiw_change,2,-0.000962864887407084,-0.016418823455467087,0.016577013642450386
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,relative_winkler_interval_score_change,2,-0.0010418038954326482,-0.003138546509442481,0.0005448739190663869
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_picp,3,-0.0023978562976026685,-0.005696773977698809,0.0011532358794325477
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_mpiw,3,-0.3205630450263565,-3.557992353182487,3.2891975278795735
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_winkler_interval_score,3,-0.5430954122519486,-1.63989340479259,0.3227900767504887
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,3,-0.0007497019398684147,-0.0013293433379931389,-0.00025042580242242395
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,3,0.009919024941053031,0.0005006443869197633,0.0191266646003616
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,delta_joint_loss,3,0.004584661500592309,-8.491845748138012e-05,0.009043554726099936
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,relative_mpiw_change,3,-0.000962864887407084,-0.015329231207188468,0.014950077822053237
+paired_metric,aci_global_vs_static_global,UCI Electricity|persistence,relative_winkler_interval_score_change,3,-0.0010418038954326482,-0.0028941761467859927,0.000555137616653535
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_picp,2,-0.00036857622803069097,-0.004986884310898459,0.0045079394491761
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_mpiw,2,-0.04200014842597284,-1.2950592275054285,1.2997879903144138
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_winkler_interval_score,2,-0.256280899437224,-0.594498020382295,0.03485335472654864
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_macro_user_abs_coverage_gap,2,-0.00241946377571346,-0.003763211856566623,-0.0011579326030151619
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_max_abs_cluster_coverage_gap,2,-0.015670741534916266,-0.018966891879338556,-0.012442193455778669
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_joint_loss,2,-0.009045102655314859,-0.011294309337434184,-0.006895386945269576
+paired_metric,aci_segment_vs_static_segment,all_synchronized,relative_mpiw_change,2,0.0007821091384826788,-0.019950640810254335,0.022650696733101095
+paired_metric,aci_segment_vs_static_segment,all_synchronized,relative_winkler_interval_score_change,2,-0.0023217205954102495,-0.003730946950514605,-0.0011299988966435098
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_picp,3,-0.00036857622803069097,-0.005390592775925888,0.004805060716558302
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_mpiw,3,-0.04200014842597284,-1.3721222413975054,1.451793375751191
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_winkler_interval_score,3,-0.256280899437224,-0.6220069465196296,0.04597426939997495
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_macro_user_abs_coverage_gap,3,-0.00241946377571346,-0.0036574051751998666,-0.001210506404758835
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_max_abs_cluster_coverage_gap,3,-0.015670741534916266,-0.018800208661509256,-0.01248037498407548
+paired_metric,aci_segment_vs_static_segment,all_synchronized,delta_joint_loss,3,-0.009045102655314859,-0.011180848699484975,-0.006895574205438699
+paired_metric,aci_segment_vs_static_segment,all_synchronized,relative_mpiw_change,3,0.0007821091384826788,-0.02186809066151699,0.024233297166864932
+paired_metric,aci_segment_vs_static_segment,all_synchronized,relative_winkler_interval_score_change,3,-0.0023217205954102495,-0.0036368306809357927,-0.0011216049301797754
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_picp,2,0.0016224806503558065,-0.0029544391175483757,0.005979996543636086
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_mpiw,2,0.0005807740396433225,-0.0008325025934599918,0.001968591300067953
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_winkler_interval_score,2,-7.843768408060299e-05,-0.00011567888243166347,-4.476793785397106e-05
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,2,-0.0007411506666415492,-0.00117878402634715,-0.00034746060983130856
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.009170180260385208,-0.011367690878867766,-0.007077858556863693
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_joint_loss,2,-0.004955665463513379,-0.0062348498156806825,-0.0037587264384546424
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,relative_mpiw_change,2,0.0011213917250151469,-0.0020814635948633686,0.0041049869943803295
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,relative_winkler_interval_score_change,2,-0.00010779650600350228,-0.0001588840579275473,-6.418167371643698e-05
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_picp,3,0.0016224806503558065,-0.0023605042495295214,0.005990923017735326
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_mpiw,3,0.0005807740396433225,-0.0006556859943848692,0.0019455167669211043
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_winkler_interval_score,3,-7.843768408060299e-05,-0.00011378426487210214,-4.112545344575613e-05
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,3,-0.0007411506666415492,-0.0011416842606577907,-0.00033701867064419205
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.009170180260385208,-0.01130785621730814,-0.006860747119845149
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,delta_joint_loss,3,-0.004955665463513379,-0.0061920326415889895,-0.0036382535896989795
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,relative_mpiw_change,3,0.0011213917250151469,-0.001637702987431271,0.00391944604269091
+paired_metric,aci_segment_vs_static_segment,Ausgrid|lgbm,relative_winkler_interval_score_change,3,-0.00010779650600350228,-0.00015368178928042758,-6.033418809669289e-05
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_picp,2,-0.0011273194171160517,-0.01993139255449695,0.017287356379660033
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_mpiw,2,-0.002087093927515854,-0.05392806942092741,0.04811820735160188
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_winkler_interval_score,2,-0.008161814258156245,-0.01583383975729269,-0.0017486964644429647
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,2,-0.007279203884656191,-0.013894338758304836,-0.0012897489207425322
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,2,-0.025082585587685783,-0.03882203711974774,-0.012480860619240133
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_joint_loss,2,-0.01618089473617099,-0.026293165098785643,-0.006888447069100636
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,relative_mpiw_change,2,0.005779798004821546,-0.08802546761290767,0.10367706395349648
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,relative_winkler_interval_score_change,2,-0.006943068556080273,-0.013867590640511566,-0.001305812716075137
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_picp,3,-0.0011273194171160517,-0.020972729545660828,0.01890034897573467
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_mpiw,3,-0.002087093927515854,-0.05508294818815166,0.04984883936651056
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_winkler_interval_score,3,-0.008161814258156245,-0.015100528320556555,-0.0011594194706594345
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,3,-0.007279203884656191,-0.013190086528971523,-0.0011707219719140985
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,3,-0.025082585587685783,-0.037852449923243096,-0.011718190578149818
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,delta_joint_loss,3,-0.01618089473617099,-0.025536858194076292,-0.006515952837786217
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,relative_mpiw_change,3,0.005779798004821546,-0.09230886835163796,0.10970246341194646
+paired_metric,aci_segment_vs_static_segment,Ausgrid|persistence,relative_winkler_interval_score_change,3,-0.006943068556080273,-0.013107912638846078,-0.0011389722895930544
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_picp,2,0.001471552081296043,-0.002605332270443272,0.005106065533788929
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_mpiw,2,0.00032564923623731363,-0.00045699755543013055,0.001028434145045237
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_winkler_interval_score,2,-3.874855193630228e-05,-5.668630349369379e-05,-2.2067673737692014e-05
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_macro_user_abs_coverage_gap,2,-0.0005467864480710895,-0.000752835233082381,-0.00036696150347673053
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.008922277239566418,-0.011437811117637583,-0.00647297374517388
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_joint_loss,2,-0.004734531843818754,-0.006040306488597582,-0.003459648659247936
+paired_metric,aci_segment_vs_static_segment,London|lgbm,relative_mpiw_change,2,0.0008932368790980605,-0.0020695746448743868,0.003463663794993467
+paired_metric,aci_segment_vs_static_segment,London|lgbm,relative_winkler_interval_score_change,2,-8.008895795639553e-05,-0.00012925182886913393,-3.8894263708068786e-05
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_picp,3,0.001471552081296043,-0.002022491917174932,0.0048723254106221746
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_mpiw,3,0.00032564923623731363,-0.0003444292134245302,0.0010136851719837016
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_winkler_interval_score,3,-3.874855193630228e-05,-5.8260109809466446e-05,-2.18257919927901e-05
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_macro_user_abs_coverage_gap,3,-0.0005467864480710895,-0.0007676340061602081,-0.000357335671468725
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.008922277239566418,-0.011479465177423374,-0.006551462038633256
+paired_metric,aci_segment_vs_static_segment,London|lgbm,delta_joint_loss,3,-0.004734531843818754,-0.006101706901408995,-0.003477451979358304
+paired_metric,aci_segment_vs_static_segment,London|lgbm,relative_mpiw_change,3,0.0008932368790980605,-0.0016521689508319619,0.0033517678922772086
+paired_metric,aci_segment_vs_static_segment,London|lgbm,relative_winkler_interval_score_change,3,-8.008895795639553e-05,-0.0001322494582951816,-3.721935839979423e-05
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_picp,2,-0.0011809298569650517,-0.015416856433932565,0.013565109674553367
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_mpiw,2,-0.00335205878759168,-0.02877617273055905,0.021542079369266883
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_winkler_interval_score,2,-0.0032235306810747062,-0.00509110608504849,-0.001505575709319236
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_macro_user_abs_coverage_gap,2,-0.0042758850760263286,-0.008007618765440093,-0.0008687413030282183
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_max_abs_cluster_coverage_gap,2,-0.028000244939755912,-0.037911699701709156,-0.01784109597000501
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_joint_loss,2,-0.016138065007891122,-0.022375738241125036,-0.009898294991378535
+paired_metric,aci_segment_vs_static_segment,London|persistence,relative_mpiw_change,2,-0.0038419123736076768,-0.07479181617577621,0.06839099014992761
+paired_metric,aci_segment_vs_static_segment,London|persistence,relative_winkler_interval_score_change,2,-0.0038093517545562602,-0.005905032497095215,-0.0018719801009181238
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_picp,3,-0.0011809298569650517,-0.016898915013019954,0.015623417704475749
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_mpiw,3,-0.00335205878759168,-0.03147871694736281,0.02522678301725808
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_winkler_interval_score,3,-0.0032235306810747062,-0.004764923265318199,-0.001639402892892903
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_macro_user_abs_coverage_gap,3,-0.0042758850760263286,-0.008177560939374192,-0.0010050354719764302
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_max_abs_cluster_coverage_gap,3,-0.028000244939755912,-0.03683349949070407,-0.01838380992654717
+paired_metric,aci_segment_vs_static_segment,London|persistence,delta_joint_loss,3,-0.016138065007891122,-0.021899249895467873,-0.010222407725697954
+paired_metric,aci_segment_vs_static_segment,London|persistence,relative_mpiw_change,3,-0.0038419123736076768,-0.08340163514435515,0.07917355468322765
+paired_metric,aci_segment_vs_static_segment,London|persistence,relative_winkler_interval_score_change,3,-0.0038093517545562602,-0.0056505127418387795,-0.0019846803791278796
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_picp,2,-5.974257761206155e-05,-0.002969203266234802,0.002910179116509976
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_mpiw,2,0.010375658946244926,-1.253491749767316,1.3497092734890141
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_winkler_interval_score,2,-0.2898510101438016,-0.6032291306872447,0.006929043893102665
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,2,-0.0008801289170799082,-0.0014460035357338676,-0.0003525026706199343
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.009565011272382825,-0.01190023440516846,-0.007730720110657868
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_joint_loss,2,-0.005222570094731367,-0.006597307693413504,-0.004172559156064817
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,relative_mpiw_change,2,0.00017999321504854303,-0.0028752086175059385,0.0032735174352288014
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,relative_winkler_interval_score_change,2,-0.0005649022620447458,-0.0013162840528841626,8.359644348173693e-05
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_picp,3,-5.974257761206155e-05,-0.002496445838755514,0.002901172555942725
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_mpiw,3,0.010375658946244926,-1.1651962379867438,1.3557037803590173
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_winkler_interval_score,3,-0.2898510101438016,-0.49632233854327507,-0.09224462840468561
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,3,-0.0008801289170799082,-0.0014606871659216842,-0.00027576278486864055
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.009565011272382825,-0.011935501397468002,-0.007929741149495058
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,delta_joint_loss,3,-0.005222570094731367,-0.006677284718862554,-0.004265918438079625
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,relative_mpiw_change,3,0.00017999321504854303,-0.0025501839711725336,0.003374998581363241
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|lgbm,relative_winkler_interval_score_change,3,-0.0005649022620447458,-0.0011130853932573815,-0.00012056020911741613
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_picp,2,-0.0028518503581101327,-0.007963557253196986,0.002744015582784193
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_mpiw,2,-0.25109599612113936,-8.558618779065744,8.349390068533905
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_winkler_interval_score,2,-1.1938902286675084,-3.0624283338178486,0.4540770614616502
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,2,-0.0007922729928615656,-0.0015587727917617143,-6.177696447839876e-05
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,2,-0.013749236502178915,-0.01720378656878975,-0.009874283463127182
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_joint_loss,2,-0.007270754747520241,-0.009199145317123717,-0.005072531373262961
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,relative_mpiw_change,2,0.00018407289956420703,-0.0359760221686974,0.038330419343748964
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,relative_winkler_interval_score_change,2,-0.002362282162628002,-0.005918585546415958,0.000832662450090866
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_picp,3,-0.0028518503581101327,-0.007865656872225587,0.0028227546543428315
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_mpiw,3,-0.25109599612113936,-9.035306845444119,9.225667813518017
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_winkler_interval_score,3,-1.1938902286675084,-3.269775995864997,0.561589805057641
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,3,-0.0007922729928615656,-0.001563181568547065,4.33659230241588e-05
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,3,-0.013749236502178915,-0.016936058879383063,-0.009789836416816824
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,delta_joint_loss,3,-0.007270754747520241,-0.009145648397385063,-0.004959914587136404
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,relative_mpiw_change,3,0.00018407289956420703,-0.03883062755274589,0.042394605597722436
+paired_metric,aci_segment_vs_static_segment,UCI Electricity|persistence,relative_winkler_interval_score_change,3,-0.002362282162628002,-0.00624113058075219,0.0010283035838666709
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_picp,2,0.0026025614609652597,-0.00207490544411108,0.007505925473813479
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_mpiw,2,0.4150452307097163,-1.739228439298451,2.548305428454107
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_winkler_interval_score,2,-2.7991159522276163,-4.000133087228926,-1.71529554393843
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_macro_user_abs_coverage_gap,2,-0.028222975234524737,-0.03019414561949139,-0.026348032084318882
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_max_abs_cluster_coverage_gap,2,-0.014475866509083926,-0.01835630148896382,-0.010766993828988308
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_joint_loss,2,-0.021349420871804334,-0.024099691508237514,-0.018734993671560157
+paired_metric,aci_user_vs_static_user,all_synchronized,relative_mpiw_change,2,0.008602970955286325,-0.018252505741269954,0.03736271844188194
+paired_metric,aci_user_vs_static_user,all_synchronized,relative_winkler_interval_score_change,2,-0.014317525032134256,-0.017317854950932212,-0.01148725474500463
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_picp,3,0.0026025614609652597,-0.002460363161825229,0.007890128027436981
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_mpiw,3,0.4150452307097163,-1.9527976984728932,2.4412603011292573
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_winkler_interval_score,3,-2.7991159522276163,-3.8964483815542295,-1.8232305676038298
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_macro_user_abs_coverage_gap,3,-0.028222975234524737,-0.030085176466532956,-0.026427726858415372
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_max_abs_cluster_coverage_gap,3,-0.014475866509083926,-0.018400049107455154,-0.010748259360123899
+paired_metric,aci_user_vs_static_user,all_synchronized,delta_joint_loss,3,-0.021349420871804334,-0.024083783585960916,-0.018687989850728705
+paired_metric,aci_user_vs_static_user,all_synchronized,relative_mpiw_change,3,0.008602970955286325,-0.021187087407885663,0.03948369973336387
+paired_metric,aci_user_vs_static_user,all_synchronized,relative_winkler_interval_score_change,3,-0.014317525032134256,-0.017094977455333255,-0.011635981713549794
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_picp,2,0.003995457493003081,-0.0008745522924169432,0.008660412460377409
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_mpiw,2,0.0008093618692995389,-0.0009557964500677894,0.002650953907809455
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_winkler_interval_score,2,-0.0012401964582950953,-0.0014776396319700665,-0.0010194466814801757
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,2,-0.023081644895284432,-0.024453295601776927,-0.02170640751554363
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.010049882582314141,-0.012959296449772022,-0.007040586545995377
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_joint_loss,2,-0.016565763738799286,-0.018617755277504325,-0.014528016339197715
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,relative_mpiw_change,2,0.0015984158967950156,-0.0021375750095429546,0.005314658391920638
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,relative_winkler_interval_score_change,2,-0.0017399486065452008,-0.002088825387450003,-0.001462744718803652
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_picp,3,0.003995457493003081,-0.00046532030446825673,0.00873943736189528
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_mpiw,3,0.0008093618692995389,-0.0007835395522914484,0.0027248979112096997
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_winkler_interval_score,3,-0.0012401964582950953,-0.0014897359056917899,-0.0010245564740096007
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,3,-0.023081644895284432,-0.02409325389690045,-0.02195004961922913
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.010049882582314141,-0.012977624415828158,-0.00682474642940039
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,delta_joint_loss,3,-0.016565763738799286,-0.018533171281808182,-0.014515385316541141
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,relative_mpiw_change,3,0.0015984158967950156,-0.0017989920023208392,0.005529191205875247
+paired_metric,aci_user_vs_static_user,Ausgrid|lgbm,relative_winkler_interval_score_change,3,-0.0017399486065452008,-0.002053796907282351,-0.0014921332131682412
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_picp,2,0.004477992723083894,-0.012888340572860193,0.022314096039716222
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_mpiw,2,0.004918065762987635,-0.053665712762866746,0.06350058160904044
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_winkler_interval_score,2,-0.029474263027431374,-0.041828273564547415,-0.01760065457666138
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,2,-0.037972654553124416,-0.04550619030030414,-0.030924433277442147
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,2,-0.023169689169538682,-0.03686837587137466,-0.010107054161079047
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_joint_loss,2,-0.030571171861331545,-0.041144294729086005,-0.020610505954366882
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,relative_mpiw_change,2,0.022660461239088603,-0.08449923907370104,0.13684508864169867
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,relative_winkler_interval_score_change,2,-0.026053282690547925,-0.03637263309383722,-0.017228681505972728
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_picp,3,0.004477992723083894,-0.01416042822950255,0.02376467813003577
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_mpiw,3,0.004918065762987635,-0.05650074583360077,0.06548049541971138
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_winkler_interval_score,3,-0.029474263027431374,-0.042028694566315195,-0.016569217341652186
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,3,-0.037972654553124416,-0.04473326560458399,-0.0311663772568401
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,3,-0.023169689169538682,-0.036677912560664126,-0.010548401253322473
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,delta_joint_loss,3,-0.030571171861331545,-0.04062400916706082,-0.0208182818821416
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,relative_mpiw_change,3,0.022660461239088603,-0.09037860952245891,0.14338806750113398
+paired_metric,aci_user_vs_static_user,Ausgrid|persistence,relative_winkler_interval_score_change,3,-0.026053282690547925,-0.03529485158397672,-0.01721506239562195
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_picp,2,0.00550221412438854,0.0007931904804849842,0.009452142434465802
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_mpiw,2,0.000886770272138548,-0.0005554623507088428,0.0021284054618703504
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_winkler_interval_score,2,-0.0017232636029697148,-0.002245304881769983,-0.0012143307147969731
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_macro_user_abs_coverage_gap,2,-0.026426847655492094,-0.02832769247729029,-0.024704303044127233
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.010311690022092935,-0.013565053589666474,-0.007024525260606486
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_joint_loss,2,-0.018369268838792516,-0.020169147231733593,-0.016269051696869718
+paired_metric,aci_user_vs_static_user,London|lgbm,relative_mpiw_change,2,0.002427164323683861,-0.0029656085402193755,0.006881331573296385
+paired_metric,aci_user_vs_static_user,London|lgbm,relative_winkler_interval_score_change,2,-0.0032315173206604255,-0.004036855776051889,-0.002534435522505067
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_picp,3,0.00550221412438854,0.0014643358382771985,0.009270738490250912
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_mpiw,3,0.000886770272138548,-0.00045788324749358104,0.002141835034721598
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_winkler_interval_score,3,-0.0017232636029697148,-0.0023010547275221617,-0.0011501615488788192
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_macro_user_abs_coverage_gap,3,-0.026426847655492094,-0.028272100120201107,-0.024673641125784598
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.010311690022092935,-0.013645382309943109,-0.007352481511550473
+paired_metric,aci_user_vs_static_user,London|lgbm,delta_joint_loss,3,-0.018369268838792516,-0.0203302029762574,-0.01624926792503653
+paired_metric,aci_user_vs_static_user,London|lgbm,relative_mpiw_change,3,0.002427164323683861,-0.0024337253362028406,0.006902492053762865
+paired_metric,aci_user_vs_static_user,London|lgbm,relative_winkler_interval_score_change,3,-0.0032315173206604255,-0.004046808823746705,-0.0024499334842094417
+paired_metric,aci_user_vs_static_user,London|persistence,delta_picp,2,0.0035938674410955673,-0.011002049667889303,0.01984289759268667
+paired_metric,aci_user_vs_static_user,London|persistence,delta_mpiw,2,0.0018584333526111727,-0.03163806033577432,0.03682095127897509
+paired_metric,aci_user_vs_static_user,London|persistence,delta_winkler_interval_score,2,-0.01796069497498285,-0.020954035842377264,-0.014896504838884325
+paired_metric,aci_user_vs_static_user,London|persistence,delta_macro_user_abs_coverage_gap,2,-0.03223294649943406,-0.03728418749403867,-0.02729139638675415
+paired_metric,aci_user_vs_static_user,London|persistence,delta_max_abs_cluster_coverage_gap,2,-0.026531811673632968,-0.038785546849934814,-0.014649562069807828
+paired_metric,aci_user_vs_static_user,London|persistence,delta_joint_loss,2,-0.02938237908653352,-0.03777791655320492,-0.021092724009519857
+paired_metric,aci_user_vs_static_user,London|persistence,relative_mpiw_change,2,0.01688488805619984,-0.08310970607772972,0.12469041998130674
+paired_metric,aci_user_vs_static_user,London|persistence,relative_winkler_interval_score_change,2,-0.021559649144272018,-0.025021112005412936,-0.01712771978888755
+paired_metric,aci_user_vs_static_user,London|persistence,delta_picp,3,0.0035938674410955673,-0.012764619798706123,0.021471953478001096
+paired_metric,aci_user_vs_static_user,London|persistence,delta_mpiw,3,0.0018584333526111727,-0.03609244726174255,0.04124460619847785
+paired_metric,aci_user_vs_static_user,London|persistence,delta_winkler_interval_score,3,-0.01796069497498285,-0.020460725222041867,-0.015253706268994461
+paired_metric,aci_user_vs_static_user,London|persistence,delta_macro_user_abs_coverage_gap,3,-0.03223294649943406,-0.03769802661866517,-0.027010319427482637
+paired_metric,aci_user_vs_static_user,London|persistence,delta_max_abs_cluster_coverage_gap,3,-0.026531811673632968,-0.038890197781430776,-0.014310511419234128
+paired_metric,aci_user_vs_static_user,London|persistence,delta_joint_loss,3,-0.02938237908653352,-0.038092020687117874,-0.020604487342974837
+paired_metric,aci_user_vs_static_user,London|persistence,relative_mpiw_change,3,0.01688488805619984,-0.09466931570148486,0.13898346861311092
+paired_metric,aci_user_vs_static_user,London|persistence,relative_winkler_interval_score_change,3,-0.021559649144272018,-0.024937839572170602,-0.0171940486445429
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_picp,2,0.0011281759892956544,-0.002068881531002579,0.004148497837776997
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_mpiw,2,4.020229797751479,-6.010272707087773,15.767306618447263
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_winkler_interval_score,2,-11.341831314136632,-17.169313633271923,-6.320377253259818
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,2,-0.024870555314875503,-0.027408420829177854,-0.022612001632623713
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.003850098277058384,-0.007397725687560076,-0.0007705834010667678
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_joint_loss,2,-0.014360326795966943,-0.016692035979513555,-0.012283835434942672
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,relative_mpiw_change,2,0.012235391848589251,-0.014650730990103677,0.04353677544028574
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,relative_winkler_interval_score_change,2,-0.021499534504043804,-0.031533187552954145,-0.012243759609770801
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_picp,3,0.0011281759892956544,-0.0014737052716235395,0.004147236410575452
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_mpiw,3,4.020229797751479,-5.302819075980153,14.91033217536193
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_winkler_interval_score,3,-11.341831314136632,-16.821762073970785,-6.6717255302193434
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,3,-0.024870555314875503,-0.027373324036888247,-0.022822567823600256
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.003850098277058384,-0.0072939973199274205,-0.0008509243340507674
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,delta_joint_loss,3,-0.014360326795966943,-0.01687472492252878,-0.01217474240853588
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,relative_mpiw_change,3,0.012235391848589251,-0.012950933165177661,0.03950394585229528
+paired_metric,aci_user_vs_static_user,UCI Electricity|lgbm,relative_winkler_interval_score_change,3,-0.021499534504043804,-0.030757760273770376,-0.012800351285103973
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_picp,2,-0.002758092451445713,-0.007342702034592005,0.0023201792832630037
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_mpiw,2,-1.6073764828997739,-16.895432974716087,12.622889287700334
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_winkler_interval_score,2,-4.937586985675613,-6.557070165227823,-3.530035491673139
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,2,-0.02493768946276099,-0.02774287231802187,-0.02220682416929813
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,2,-0.013599674719662933,-0.01992358974392164,-0.008334198226243381
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_joint_loss,2,-0.01926868209121196,-0.022416209747745157,-0.01675668285596199
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,relative_mpiw_change,2,-0.0040129864268626915,-0.06740432263130011,0.05716589074764787
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,relative_winkler_interval_score_change,2,-0.011500894293458163,-0.015945920877666848,-0.007670995293573385
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_picp,3,-0.002758092451445713,-0.007241141829949051,0.002479551066634842
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_mpiw,3,-1.6073764828997739,-17.621177070818284,14.322204177022615
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_winkler_interval_score,3,-4.937586985675613,-6.274472769461482,-3.6351647694845703
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,3,-0.02493768946276099,-0.02754235469506021,-0.02260774562494774
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,3,-0.013599674719662933,-0.020390044439777252,-0.008011608571408667
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,delta_joint_loss,3,-0.01926868209121196,-0.022282678846589604,-0.01687418193419485
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,relative_mpiw_change,3,-0.0040129864268626915,-0.0714429955070108,0.06342399181280699
+paired_metric,aci_user_vs_static_user,UCI Electricity|persistence,relative_winkler_interval_score_change,3,-0.011500894293458163,-0.015283835498217926,-0.007718122693487129
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_picp,2,2.2433313081641047e-05,-0.00030656486827448053,0.00039674835543187544
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_mpiw,2,0.23907005138119283,-0.0004301339546869295,0.6724121734009572
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_winkler_interval_score,2,0.23907081642406972,2.302066420013912e-05,0.5116142103819721
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_macro_user_abs_coverage_gap,2,0.0010235771362467243,0.0002505315270825885,0.0019025425568430997
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_max_abs_cluster_coverage_gap,2,-0.0016648187489353601,-0.003285106329961993,-0.00034919246869107143
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_joint_loss,2,-0.000320620806344318,-0.0008665820268342892,0.00010835269175173487
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,relative_mpiw_change,2,-0.000307691774653888,-0.002961158482518179,0.0022382862661581436
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,relative_winkler_interval_score_change,2,0.0005590077083782763,-0.00021715111666081074,0.0013823353555337092
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_picp,3,2.2433313081641047e-05,-0.00030656486827448053,0.00036732148841109866
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_mpiw,3,0.23907005138119283,-0.000632705095890977,0.5885254085887526
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_winkler_interval_score,3,0.23907081642406972,-9.910467385498516e-05,0.5118710102175088
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_macro_user_abs_coverage_gap,3,0.0010235771362467243,0.0001969213232787043,0.0019256102928184387
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_max_abs_cluster_coverage_gap,3,-0.0016648187489353601,-0.0032743829254273586,-0.0002730261119352116
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,delta_joint_loss,3,-0.000320620806344318,-0.0008470030003854763,0.00012993210928331436
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,relative_mpiw_change,3,-0.000307691774653888,-0.0025887633139476556,0.0021768040329797067
+paired_metric,csgr_vs_static_best_fixed,all_synchronized,relative_winkler_interval_score_change,3,0.0005590077083782763,-0.00023888735160327638,0.0014179882433948093
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_picp,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_mpiw,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_winkler_interval_score,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_joint_loss,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,relative_mpiw_change,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,relative_winkler_interval_score_change,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_picp,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_mpiw,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_winkler_interval_score,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,delta_joint_loss,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,relative_mpiw_change,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|lgbm,relative_winkler_interval_score_change,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_picp,2,0.0005210768271778077,0.0,0.001563230481533423
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_mpiw,2,-0.00022816347433285422,-0.0006844904229985627,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_winkler_interval_score,2,-0.00039168734274188283,-0.0011750620282256485,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,2,-0.00032463348557317494,-0.0009739004567195248,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,2,0.00039260244614418294,0.0,0.0011778073384325488
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_joint_loss,2,3.398448028550371e-05,0.0,0.00010195344085651113
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,relative_mpiw_change,2,-0.0004411929890020205,-0.0013235789670060615,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,relative_winkler_interval_score_change,2,-0.0004171701553855528,-0.0012515104661566584,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_picp,3,0.0005210768271778077,0.0,0.001563230481533423
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_mpiw,3,-0.00022816347433285422,-0.0006844904229985627,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_winkler_interval_score,3,-0.00039168734274188283,-0.0011750620282256485,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,3,-0.00032463348557317494,-0.0009739004567195248,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,3,0.00039260244614418294,0.0,0.0011778073384325488
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,delta_joint_loss,3,3.398448028550371e-05,0.0,0.00010195344085651113
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,relative_mpiw_change,3,-0.0004411929890020205,-0.0013235789670060615,0.0
+paired_metric,csgr_vs_static_best_fixed,Ausgrid|persistence,relative_winkler_interval_score_change,3,-0.0004171701553855528,-0.0012515104661566584,0.0
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_picp,2,0.0005953424528024609,-7.223902978216078e-05,0.0018582663881895436
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_mpiw,2,7.384392275920007e-05,-0.0001528837571532821,0.0003744155254308823
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_winkler_interval_score,2,-2.5478598554966187e-05,-0.00031326774165449633,0.00023683194598959773
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_macro_user_abs_coverage_gap,2,0.0008268990120587914,0.0,0.002447692174628283
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.0011068633523610726,-0.0023788614257239087,0.0
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_joint_loss,2,-0.00013998217015114063,-0.000681542827358414,0.0002615963169049921
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,relative_mpiw_change,2,0.00014407451648023803,-0.0005506570071948368,0.0009828805566355508
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,relative_winkler_interval_score_change,2,-9.357069846619958e-05,-0.0006417576775359268,0.0003610455821373281
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_picp,3,0.0005953424528024609,-4.815935318810719e-05,0.0018341867115954898
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_mpiw,3,7.384392275920007e-05,-0.00010192250476885474,0.00032345427304645495
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_winkler_interval_score,3,-2.5478598554966187e-05,-0.00023432375965796372,0.00015788796399306517
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_macro_user_abs_coverage_gap,3,0.0008268990120587914,0.0,0.002447692174628283
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.0011068633523610726,-0.0026845910204018,0.0
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,delta_joint_loss,3,-0.00013998217015114063,-0.00059434405505675,0.00017439754460332808
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,relative_mpiw_change,3,0.00014407451648023803,-0.00036710467146322453,0.0007993282209039387
+paired_metric,csgr_vs_static_best_fixed,London|lgbm,relative_winkler_interval_score_change,3,-9.357069846619958e-05,-0.0005214091501568176,0.00024069705475821874
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_picp,2,0.00029280476433033646,0.0,0.0007461752438997796
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_mpiw,2,-0.003602337861702826,-0.008976256991343174,0.0
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_winkler_interval_score,2,0.00020158111836980503,-0.002107038136839737,0.002711781491949152
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_macro_user_abs_coverage_gap,2,0.0013159188398915633,0.0,0.0036387276788048175
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_max_abs_cluster_coverage_gap,2,-0.0015435641169212178,-0.004420565112014417,0.0
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_joint_loss,2,-0.00011382263851482766,-0.0019259791156674957,0.0015845112001230128
+paired_metric,csgr_vs_static_best_fixed,London|persistence,relative_mpiw_change,2,-0.009117082502273312,-0.02248152227322905,0.0
+paired_metric,csgr_vs_static_best_fixed,London|persistence,relative_winkler_interval_score_change,2,7.038842949463114e-05,-0.002553534889992086,0.0027647001784759794
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_picp,3,0.00029280476433033646,0.0,0.0006800557193541647
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_mpiw,3,-0.003602337861702826,-0.008060878694460523,0.0
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_winkler_interval_score,3,0.00020158111836980503,-0.002107038136839737,0.002711781491949152
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_macro_user_abs_coverage_gap,3,0.0013159188398915633,0.0,0.003484213258369881
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_max_abs_cluster_coverage_gap,3,-0.0015435641169212178,-0.004315501492639799,0.0
+paired_metric,csgr_vs_static_best_fixed,London|persistence,delta_joint_loss,3,-0.00011382263851482766,-0.0019259791156674957,0.0015845112001230128
+paired_metric,csgr_vs_static_best_fixed,London|persistence,relative_mpiw_change,3,-0.009117082502273312,-0.02004665965643361,0.0
+paired_metric,csgr_vs_static_best_fixed,London|persistence,relative_winkler_interval_score_change,3,7.038842949463114e-05,-0.002553534889992086,0.0027647001784759794
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_picp,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_mpiw,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_winkler_interval_score,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_joint_loss,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,relative_mpiw_change,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,relative_winkler_interval_score_change,2,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_picp,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_mpiw,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_winkler_interval_score,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,delta_joint_loss,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,relative_mpiw_change,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|lgbm,relative_winkler_interval_score_change,3,0.0,0.0,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_picp,2,-0.0012043507832399658,-0.0024549058920807034,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_mpiw,2,1.3980379159753227,0.0,3.4366390443113723
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_winkler_interval_score,2,1.3948100225066515,0.0,2.800609116915382
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,2,0.004331250416057909,0.0,0.008662500832115817
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,2,-0.00767448663475835,-0.015705736843126133,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_joint_loss,2,-0.001671618109350221,-0.004011583674158392,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,relative_mpiw_change,2,0.006871581623831325,0.0,0.016978623040416165
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,relative_winkler_interval_score_change,2,0.0036992988674827685,0.0,0.007417261539608998
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_picp,3,-0.0012043507832399658,-0.0025684732776954564,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_mpiw,3,1.3980379159753227,0.0,3.4366390443113723
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_winkler_interval_score,3,1.3948100225066515,0.0,2.996072471720737
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,3,0.004331250416057909,0.0,0.008850246963215225
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,3,-0.00767448663475835,-0.01594227503247504,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,delta_joint_loss,3,-0.001671618109350221,-0.004190817345612988,0.0
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,relative_mpiw_change,3,0.006871581623831325,0.0,0.016978623040416165
+paired_metric,csgr_vs_static_best_fixed,UCI Electricity|persistence,relative_winkler_interval_score_change,3,0.0036992988674827685,0.0,0.008026400106404529
+paired_metric,csgr_vs_static_global,all_synchronized,delta_picp,2,-0.001318242095650687,-0.0019158626371208196,-0.0007434109994690042
+paired_metric,csgr_vs_static_global,all_synchronized,delta_mpiw,2,-4.050712887320362,-6.7090598789629325,-1.5715312083479978
+paired_metric,csgr_vs_static_global,all_synchronized,delta_winkler_interval_score,2,-2.8539268875408403,-4.387604449405333,-1.2745364591027983
+paired_metric,csgr_vs_static_global,all_synchronized,delta_macro_user_abs_coverage_gap,2,-0.01120695353699069,-0.013018666264646242,-0.009358744049059665
+paired_metric,csgr_vs_static_global,all_synchronized,delta_max_abs_cluster_coverage_gap,2,-0.013171153343780254,-0.016619210602627825,-0.009467683244874825
+paired_metric,csgr_vs_static_global,all_synchronized,delta_joint_loss,2,-0.012189053440385473,-0.014122052975547654,-0.010263019493460753
+paired_metric,csgr_vs_static_global,all_synchronized,relative_mpiw_change,2,-0.009474337980207352,-0.02627065285568858,0.006862513158407366
+paired_metric,csgr_vs_static_global,all_synchronized,relative_winkler_interval_score_change,2,-0.008354027571871616,-0.011513391207876728,-0.0050873841067621715
+paired_metric,csgr_vs_static_global,all_synchronized,delta_picp,3,-0.001318242095650687,-0.001950673588725062,-0.0007307315941067422
+paired_metric,csgr_vs_static_global,all_synchronized,delta_mpiw,3,-4.050712887320362,-6.934392715771744,-1.2720674856346537
+paired_metric,csgr_vs_static_global,all_synchronized,delta_winkler_interval_score,3,-2.8539268875408403,-4.266562116170541,-1.4616077743248188
+paired_metric,csgr_vs_static_global,all_synchronized,delta_macro_user_abs_coverage_gap,3,-0.01120695353699069,-0.013012508864346432,-0.009358438070428302
+paired_metric,csgr_vs_static_global,all_synchronized,delta_max_abs_cluster_coverage_gap,3,-0.013171153343780254,-0.01634489280022519,-0.009947160722934651
+paired_metric,csgr_vs_static_global,all_synchronized,delta_joint_loss,3,-0.012189053440385473,-0.013954774434376704,-0.01046130489600499
+paired_metric,csgr_vs_static_global,all_synchronized,relative_mpiw_change,3,-0.009474337980207352,-0.028344869710201868,0.009424457777380124
+paired_metric,csgr_vs_static_global,all_synchronized,relative_winkler_interval_score_change,3,-0.008354027571871616,-0.011083215478384562,-0.005577098074886337
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_picp,2,-0.001488100143648872,-0.0028921793023738832,-0.00015824056217858792
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_mpiw,2,-0.0007418889061867792,-0.0013741789944923591,-9.914080476370784e-05
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_winkler_interval_score,2,-0.0011891436554296864,-0.0014854603173375686,-0.000863829356140359
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,2,-0.012010432435791833,-0.01367781531329042,-0.01013268879308611
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.0019548955090770504,-0.004150544673810726,-0.0002617103504752937
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_joint_loss,2,-0.006982663972434442,-0.008789391796087788,-0.005368410179218653
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,relative_mpiw_change,2,-0.0019235503377962307,-0.003494375138560874,-0.00040069352834390143
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,relative_winkler_interval_score_change,2,-0.0016517896222957027,-0.002117358363997458,-0.0011897376168209276
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_picp,3,-0.001488100143648872,-0.0028861231734215362,-0.0001745039218741621
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_mpiw,3,-0.0007418889061867792,-0.0014446136700687433,-1.763110632770996e-05
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_winkler_interval_score,3,-0.0011891436554296864,-0.0014744246050358474,-0.0008489205135001066
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_macro_user_abs_coverage_gap,3,-0.012010432435791833,-0.01380208244141449,-0.010054709945137725
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.0019548955090770504,-0.003992312654625217,-0.00031487522362024233
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,delta_joint_loss,3,-0.006982663972434442,-0.00880843539162874,-0.005384496376693647
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,relative_mpiw_change,3,-0.0019235503377962307,-0.003669888663837087,-0.0001987412519438335
+paired_metric,csgr_vs_static_global,Ausgrid|lgbm,relative_winkler_interval_score_change,3,-0.0016517896222957027,-0.0021270473690462696,-0.0011412559405536346
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_picp,2,-0.002962241757385501,-0.0047169257628474634,-0.0015847034277083432
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_mpiw,2,0.0002561699706614314,-0.011128770192520277,0.014546444274393234
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_winkler_interval_score,2,-0.006041104975115739,-0.011969721230278146,0.00040055751646791055
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,2,-0.006328710946084716,-0.010468899218022633,-0.0017557362467184553
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,2,-0.004592042481893765,-0.008072747866504875,-0.001330895753957275
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_joint_loss,2,-0.005460376713989241,-0.008277092396897424,-0.002303459664441417
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,relative_mpiw_change,2,-0.005198945506923138,-0.026026194770454782,0.019860224847730222
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,relative_winkler_interval_score_change,2,-0.004923984676161937,-0.00979170465326104,0.0008109957610415966
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_picp,3,-0.002962241757385501,-0.004733646989081751,-0.0016533918817403885
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_mpiw,3,0.0002561699706614314,-0.01149507803199668,0.01601929540158334
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_winkler_interval_score,3,-0.006041104975115739,-0.011446619407501076,-8.243661318365254e-05
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_macro_user_abs_coverage_gap,3,-0.006328710946084716,-0.010395145556874165,-0.002033605802945296
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_max_abs_cluster_coverage_gap,3,-0.004592042481893765,-0.007355746745145274,-0.001855231962660992
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,delta_joint_loss,3,-0.005460376713989241,-0.007873868894625,-0.0028821047565373934
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,relative_mpiw_change,3,-0.005198945506923138,-0.026887593460866735,0.02257623821552041
+paired_metric,csgr_vs_static_global,Ausgrid|persistence,relative_winkler_interval_score_change,3,-0.004923984676161937,-0.00952357549715129,0.0004276216889568048
+paired_metric,csgr_vs_static_global,London|lgbm,delta_picp,2,-0.002151719492075094,-0.0030583509828469133,-0.0012332171966247757
+paired_metric,csgr_vs_static_global,London|lgbm,delta_mpiw,2,0.00017904439375770768,-0.00036392947608588055,0.0007415078308734152
+paired_metric,csgr_vs_static_global,London|lgbm,delta_winkler_interval_score,2,-0.0008704523333277707,-0.0012531615262683074,-0.00039645866075598295
+paired_metric,csgr_vs_static_global,London|lgbm,delta_macro_user_abs_coverage_gap,2,-0.008926245780229434,-0.012065966714929764,-0.005154431496459444
+paired_metric,csgr_vs_static_global,London|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.00020688690148502705,-0.0038306631934670464,0.0034380790186097528
+paired_metric,csgr_vs_static_global,London|lgbm,delta_joint_loss,2,-0.0045665663408572315,-0.0074980259507615495,-0.0019050541187254715
+paired_metric,csgr_vs_static_global,London|lgbm,relative_mpiw_change,2,0.0003541311560629808,-0.001476214913497831,0.002067191913072693
+paired_metric,csgr_vs_static_global,London|lgbm,relative_winkler_interval_score_change,2,-0.0017370908687613406,-0.002503543993961813,-0.0007974634378156394
+paired_metric,csgr_vs_static_global,London|lgbm,delta_picp,3,-0.002151719492075094,-0.0031734079429517237,-0.001136323573198342
+paired_metric,csgr_vs_static_global,London|lgbm,delta_mpiw,3,0.00017904439375770768,-0.0003531460001079403,0.0007510949724282391
+paired_metric,csgr_vs_static_global,London|lgbm,delta_winkler_interval_score,3,-0.0008704523333277707,-0.001251165785943193,-0.000354379430914214
+paired_metric,csgr_vs_static_global,London|lgbm,delta_macro_user_abs_coverage_gap,3,-0.008926245780229434,-0.01219209897663564,-0.004880226886013726
+paired_metric,csgr_vs_static_global,London|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.00020688690148502705,-0.0038534879067528547,0.0035338003853069857
+paired_metric,csgr_vs_static_global,London|lgbm,delta_joint_loss,3,-0.0045665663408572315,-0.007576312448074037,-0.0019317788930427007
+paired_metric,csgr_vs_static_global,London|lgbm,relative_mpiw_change,3,0.0003541311560629808,-0.0014063816060720198,0.0020785819979395725
+paired_metric,csgr_vs_static_global,London|lgbm,relative_winkler_interval_score_change,3,-0.0017370908687613406,-0.0025457063787708276,-0.0007301539492862177
+paired_metric,csgr_vs_static_global,London|persistence,delta_picp,2,-0.0023047982418692436,-0.004168802945510055,-0.0005657402683770796
+paired_metric,csgr_vs_static_global,London|persistence,delta_mpiw,2,-0.0021270547312814895,-0.021361127224505186,0.01826430305386901
+paired_metric,csgr_vs_static_global,London|persistence,delta_winkler_interval_score,2,-0.006160325070856873,-0.010581440313555814,-0.002194338079379178
+paired_metric,csgr_vs_static_global,London|persistence,delta_macro_user_abs_coverage_gap,2,-0.009198942745336364,-0.014051495094515337,-0.004535195521485509
+paired_metric,csgr_vs_static_global,London|persistence,delta_max_abs_cluster_coverage_gap,2,-0.003308663766313964,-0.011915992578156861,0.005672925644676073
+paired_metric,csgr_vs_static_global,London|persistence,delta_joint_loss,2,-0.006253803255825163,-0.012788312463466012,0.00018396222534628297
+paired_metric,csgr_vs_static_global,London|persistence,relative_mpiw_change,2,-0.014497480323784683,-0.07180388760310619,0.04377773917725867
+paired_metric,csgr_vs_static_global,London|persistence,relative_winkler_interval_score_change,2,-0.007486117870166563,-0.012800585524083512,-0.0026072058519915494
+paired_metric,csgr_vs_static_global,London|persistence,delta_picp,3,-0.0023047982418692436,-0.0043624690975344405,-0.0005926886617240774
+paired_metric,csgr_vs_static_global,London|persistence,delta_mpiw,3,-0.0021270547312814895,-0.02394808470030862,0.019705228026978928
+paired_metric,csgr_vs_static_global,London|persistence,delta_winkler_interval_score,3,-0.006160325070856873,-0.009823323118403837,-0.0025622011996259937
+paired_metric,csgr_vs_static_global,London|persistence,delta_macro_user_abs_coverage_gap,3,-0.009198942745336364,-0.013717101878486328,-0.0049849538118182995
+paired_metric,csgr_vs_static_global,London|persistence,delta_max_abs_cluster_coverage_gap,3,-0.003308663766313964,-0.011191712438421954,0.0052088114003871365
+paired_metric,csgr_vs_static_global,London|persistence,delta_joint_loss,3,-0.006253803255825163,-0.011812394723594948,-0.0001938993456963679
+paired_metric,csgr_vs_static_global,London|persistence,relative_mpiw_change,3,-0.014497480323784683,-0.07980378006111744,0.04851922822566708
+paired_metric,csgr_vs_static_global,London|persistence,relative_winkler_interval_score_change,3,-0.007486117870166563,-0.012172974800699664,-0.0030080917149409078
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_picp,2,-0.0004734956098413068,-0.0012250491211618475,0.000257922741889912
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_mpiw,2,-33.35730776869283,-40.44186960178916,-25.95184288132104
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_winkler_interval_score,2,-6.275349054089659,-11.949666515983452,-0.1985766875993431
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,2,-0.012599713864090182,-0.014306698913145694,-0.010432775617522108
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,2,-0.02020817491371165,-0.033461439484951054,-0.008126120714861343
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_joint_loss,2,-0.016403944388900915,-0.023024443390531838,-0.010443656882960818
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,relative_mpiw_change,2,-0.07763865668281901,-0.09291465981828066,-0.06265218537586606
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,relative_winkler_interval_score_change,2,-0.012433535096338301,-0.024999298043897288,-0.00036352996875486655
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_picp,3,-0.0004734956098413068,-0.0013101761756392411,0.000344009839079118
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_mpiw,3,-33.35730776869283,-40.59722711138914,-26.373717160471255
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_winkler_interval_score,3,-6.275349054089659,-11.534706058214098,-0.8472023999583959
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_macro_user_abs_coverage_gap,3,-0.012599713864090182,-0.014234951886747355,-0.010266885749970683
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_max_abs_cluster_coverage_gap,3,-0.02020817491371165,-0.031496030744918364,-0.00964687118699
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,delta_joint_loss,3,-0.016403944388900915,-0.02219119563844789,-0.010867878577887258
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,relative_mpiw_change,3,-0.07763865668281901,-0.09165049828393602,-0.06492642057924285
+paired_metric,csgr_vs_static_global,UCI Electricity|lgbm,relative_winkler_interval_score_change,3,-0.012433535096338301,-0.023754850180135113,-0.0017883267390577803
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_picp,2,0.0013192332090289822,-0.000967214198873934,0.003250320532733018
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_mpiw,2,9.730420654402307,-7.009394406687448,27.332994660824934
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_winkler_interval_score,2,-10.358882661980862,-14.944074740042621,-5.837592231923732
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,2,-0.017820282238043668,-0.022513230651258247,-0.012521058894201284
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,2,-0.04685402682188661,-0.05722243360979759,-0.033680299027117014
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_joint_loss,2,-0.03233715452996513,-0.037299326572225545,-0.027031516496836643
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,relative_mpiw_change,2,0.04245891771340704,-0.03080536022188388,0.11936895310419487
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,relative_winkler_interval_score_change,2,-0.02126791009710456,-0.028112942050628267,-0.013616441186551342
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_picp,3,0.0013192332090289822,-0.0010967122228178379,0.0031954013776333925
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_mpiw,3,9.730420654402307,-9.048684371164637,29.357698579224067
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_winkler_interval_score,3,-10.358882661980862,-15.351915452639759,-5.937814583235768
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_macro_user_abs_coverage_gap,3,-0.017820282238043668,-0.022721034595871964,-0.013132109184215555
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_max_abs_cluster_coverage_gap,3,-0.04685402682188661,-0.056883189026149444,-0.033899477522804235
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,delta_joint_loss,3,-0.03233715452996513,-0.03703277775026773,-0.02722661357410561
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,relative_mpiw_change,3,0.04245891771340704,-0.04014573189680205,0.12861294880410554
+paired_metric,csgr_vs_static_global,UCI Electricity|persistence,relative_winkler_interval_score_change,3,-0.02126791009710456,-0.02851310552482132,-0.014393170850310067
+gcr_risk_difference,aci_gcr_minus_static_gcr,all_synchronized,delta_gcr,2,-0.22857142857142856,-0.34285714285714286,-0.11428571428571428
+gcr_risk_difference,aci_gcr_minus_static_gcr,all_synchronized,delta_gcr,3,-0.22857142857142856,-0.34285714285714286,-0.12857142857142856
+gcr_risk_difference,aci_gcr_minus_static_gcr,Ausgrid|lgbm,delta_gcr,2,-0.25,-0.5,0.0
+gcr_risk_difference,aci_gcr_minus_static_gcr,Ausgrid|lgbm,delta_gcr,3,-0.25,-0.5,0.0
+gcr_risk_difference,aci_gcr_minus_static_gcr,Ausgrid|persistence,delta_gcr,2,-0.16666666666666666,-0.4166666666666667,0.0
+gcr_risk_difference,aci_gcr_minus_static_gcr,Ausgrid|persistence,delta_gcr,3,-0.16666666666666666,-0.4166666666666667,0.0
+gcr_risk_difference,aci_gcr_minus_static_gcr,London|lgbm,delta_gcr,2,-0.45454545454545453,-0.8181818181818182,0.0
+gcr_risk_difference,aci_gcr_minus_static_gcr,London|lgbm,delta_gcr,3,-0.45454545454545453,-0.8181818181818182,-0.09090909090909091
+gcr_risk_difference,aci_gcr_minus_static_gcr,London|persistence,delta_gcr,2,-0.36363636363636365,-0.6363636363636364,-0.09090909090909091
+gcr_risk_difference,aci_gcr_minus_static_gcr,London|persistence,delta_gcr,3,-0.36363636363636365,-0.5454545454545454,-0.17954545454548762
+gcr_risk_difference,aci_gcr_minus_static_gcr,UCI Electricity|lgbm,delta_gcr,2,-0.08333333333333333,-0.4166666666666667,0.16666666666666666
+gcr_risk_difference,aci_gcr_minus_static_gcr,UCI Electricity|lgbm,delta_gcr,3,-0.08333333333333333,-0.3333333333333333,0.08333333333333333
+gcr_risk_difference,aci_gcr_minus_static_gcr,UCI Electricity|persistence,delta_gcr,2,-0.08333333333333333,-0.25,0.0
+gcr_risk_difference,aci_gcr_minus_static_gcr,UCI Electricity|persistence,delta_gcr,3,-0.08333333333333333,-0.25,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,all_synchronized,delta_gcr,2,-0.05714285714285714,-0.11428571428571428,-0.014285714285714285
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,all_synchronized,delta_gcr,3,-0.05714285714285714,-0.11428571428571428,-0.014285714285714285
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,Ausgrid|lgbm,delta_gcr,2,0.0,0.0,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,Ausgrid|lgbm,delta_gcr,3,0.0,0.0,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,Ausgrid|persistence,delta_gcr,2,0.0,0.0,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,Ausgrid|persistence,delta_gcr,3,0.0,0.0,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,London|lgbm,delta_gcr,2,-0.18181818181818182,-0.36363636363636365,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,London|lgbm,delta_gcr,3,-0.18181818181818182,-0.45454545454545453,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,London|persistence,delta_gcr,2,-0.18181818181818182,-0.36363636363636365,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,London|persistence,delta_gcr,3,-0.18181818181818182,-0.36363636363636365,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,UCI Electricity|lgbm,delta_gcr,2,0.0,0.0,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,UCI Electricity|lgbm,delta_gcr,3,0.0,0.0,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,UCI Electricity|persistence,delta_gcr,2,0.0,0.0,0.0
+gcr_risk_difference,csgr_gcr_minus_static_user_gcr,UCI Electricity|persistence,delta_gcr,3,0.0,0.0,0.0

@@ -1,0 +1,141 @@
+﻿dataset,forecaster_key,window,window_order,comparison,static_indicator,aci_indicator,delta_indicator,csgr_indicator
+London,lgbm,2013-03,0,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,lgbm,2013-04,1,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,lgbm,2013-05,2,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,lgbm,2013-06,3,aci_gcr_minus_static_gcr,0,0.0,0,
+London,lgbm,2013-07,4,aci_gcr_minus_static_gcr,0,0.0,0,
+London,lgbm,2013-08,5,aci_gcr_minus_static_gcr,0,0.0,0,
+London,lgbm,2013-09,6,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,lgbm,2013-10,7,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,lgbm,2013-11,8,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,lgbm,2013-12,9,aci_gcr_minus_static_gcr,0,0.0,0,
+London,lgbm,2014-01,10,aci_gcr_minus_static_gcr,0,1.0,1,
+Ausgrid,lgbm,2012-07,0,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2012-08,1,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2012-09,2,aci_gcr_minus_static_gcr,1,0.0,-1,
+Ausgrid,lgbm,2012-10,3,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2012-11,4,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2012-12,5,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2013-01,6,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2013-02,7,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2013-03,8,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,lgbm,2013-04,9,aci_gcr_minus_static_gcr,1,0.0,-1,
+Ausgrid,lgbm,2013-05,10,aci_gcr_minus_static_gcr,1,0.0,-1,
+Ausgrid,lgbm,2013-06,11,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-01,0,aci_gcr_minus_static_gcr,1,0.0,-1,
+UCI Electricity,lgbm,2014-02,1,aci_gcr_minus_static_gcr,1,0.0,-1,
+UCI Electricity,lgbm,2014-03,2,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-04,3,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-05,4,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-06,5,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-07,6,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-08,7,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-09,8,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-10,9,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-11,10,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,lgbm,2014-12,11,aci_gcr_minus_static_gcr,0,1.0,1,
+London,persistence,2013-03,0,aci_gcr_minus_static_gcr,0,0.0,0,
+London,persistence,2013-04,1,aci_gcr_minus_static_gcr,1,1.0,0,
+London,persistence,2013-05,2,aci_gcr_minus_static_gcr,1,1.0,0,
+London,persistence,2013-06,3,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,persistence,2013-07,4,aci_gcr_minus_static_gcr,0,0.0,0,
+London,persistence,2013-08,5,aci_gcr_minus_static_gcr,0,0.0,0,
+London,persistence,2013-09,6,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,persistence,2013-10,7,aci_gcr_minus_static_gcr,0,0.0,0,
+London,persistence,2013-11,8,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,persistence,2013-12,9,aci_gcr_minus_static_gcr,1,0.0,-1,
+London,persistence,2014-01,10,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2012-07,0,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2012-08,1,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2012-09,2,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2012-10,3,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2012-11,4,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2012-12,5,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2013-01,6,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2013-02,7,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2013-03,8,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2013-04,9,aci_gcr_minus_static_gcr,0,0.0,0,
+Ausgrid,persistence,2013-05,10,aci_gcr_minus_static_gcr,1,0.0,-1,
+Ausgrid,persistence,2013-06,11,aci_gcr_minus_static_gcr,1,0.0,-1,
+UCI Electricity,persistence,2014-01,0,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-02,1,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-03,2,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-04,3,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-05,4,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-06,5,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-07,6,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-08,7,aci_gcr_minus_static_gcr,1,0.0,-1,
+UCI Electricity,persistence,2014-09,8,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-10,9,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-11,10,aci_gcr_minus_static_gcr,0,0.0,0,
+UCI Electricity,persistence,2014-12,11,aci_gcr_minus_static_gcr,0,0.0,0,
+London,lgbm,2013-03,0,csgr_gcr_minus_static_user_gcr,1,,-1,0.0
+London,lgbm,2013-04,1,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,lgbm,2013-05,2,csgr_gcr_minus_static_user_gcr,1,,-1,0.0
+London,lgbm,2013-06,3,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,lgbm,2013-07,4,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,lgbm,2013-08,5,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,lgbm,2013-09,6,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,lgbm,2013-10,7,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,lgbm,2013-11,8,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,lgbm,2013-12,9,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,lgbm,2014-01,10,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2012-07,0,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2012-08,1,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2012-09,2,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+Ausgrid,lgbm,2012-10,3,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2012-11,4,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2012-12,5,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2013-01,6,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2013-02,7,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2013-03,8,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,lgbm,2013-04,9,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+Ausgrid,lgbm,2013-05,10,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+Ausgrid,lgbm,2013-06,11,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-01,0,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+UCI Electricity,lgbm,2014-02,1,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+UCI Electricity,lgbm,2014-03,2,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-04,3,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-05,4,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-06,5,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-07,6,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-08,7,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-09,8,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-10,9,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-11,10,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,lgbm,2014-12,11,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,persistence,2013-03,0,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,persistence,2013-04,1,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,persistence,2013-05,2,csgr_gcr_minus_static_user_gcr,1,,-1,0.0
+London,persistence,2013-06,3,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,persistence,2013-07,4,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,persistence,2013-08,5,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,persistence,2013-09,6,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,persistence,2013-10,7,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+London,persistence,2013-11,8,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+London,persistence,2013-12,9,csgr_gcr_minus_static_user_gcr,1,,-1,0.0
+London,persistence,2014-01,10,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2012-07,0,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2012-08,1,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2012-09,2,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2012-10,3,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2012-11,4,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2012-12,5,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2013-01,6,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2013-02,7,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2013-03,8,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2013-04,9,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+Ausgrid,persistence,2013-05,10,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+Ausgrid,persistence,2013-06,11,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+UCI Electricity,persistence,2014-01,0,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-02,1,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-03,2,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-04,3,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-05,4,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-06,5,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-07,6,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-08,7,csgr_gcr_minus_static_user_gcr,1,,0,1.0
+UCI Electricity,persistence,2014-09,8,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-10,9,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-11,10,csgr_gcr_minus_static_user_gcr,0,,0,0.0
+UCI Electricity,persistence,2014-12,11,csgr_gcr_minus_static_user_gcr,0,,0,0.0

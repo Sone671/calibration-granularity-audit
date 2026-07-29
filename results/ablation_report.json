@@ -1,0 +1,11 @@
+{
+  "protocol": "FROZEN_INFORMATION_REGIME_COMPARISON_PROTOCOL.md",
+  "source_rows": 3150,
+  "variants": 18,
+  "primary_rule": "expanding_k1_global_eta0",
+  "block_lengths_months": [
+    2,
+    3
+  ],
+  "interpretation": "Ablations test robustness of the frozen rule; they do not select a replacement rule."
+}

@@ -1,0 +1,132 @@
+{
+  "protocols": [
+    "FROZEN_AUDIT_GROUP_SENSITIVITY_ADDENDUM.md",
+    "FROZEN_P0_DYNAMIC_BASELINE_ADDENDUM.md"
+  ],
+  "reference_conflicts": {
+    "lightgbm_quantile": 11,
+    "persistence_quantile_interval": 9
+  },
+  "rows": [
+    {
+      "scheme": "DemandTertile",
+      "forecaster": "lightgbm_quantile",
+      "environments": 35,
+      "conflicts": 16,
+      "gcr": 0.45714285714285713,
+      "weighted_mean_group_conflicts": 13,
+      "weighted_mean_group_gcr": 0.37142857142857144,
+      "mean_delta_user_gap": -0.011503038523250127,
+      "mean_delta_group_gap": -0.0015136729134139675,
+      "mean_delta_weighted_mean_group_gap": -0.0005416978661738947
+    },
+    {
+      "scheme": "DemandTertile",
+      "forecaster": "persistence_quantile_interval",
+      "environments": 35,
+      "conflicts": 11,
+      "gcr": 0.3142857142857143,
+      "weighted_mean_group_conflicts": 11,
+      "weighted_mean_group_gcr": 0.3142857142857143,
+      "mean_delta_user_gap": -0.012958022823224708,
+      "mean_delta_group_gap": -0.0035383392354360627,
+      "mean_delta_weighted_mean_group_gap": -0.0019655117945737996
+    },
+    {
+      "scheme": "KM2",
+      "forecaster": "lightgbm_quantile",
+      "environments": 35,
+      "conflicts": 15,
+      "gcr": 0.42857142857142855,
+      "weighted_mean_group_conflicts": 19,
+      "weighted_mean_group_gcr": 0.5428571428571428,
+      "mean_delta_user_gap": -0.011503038523250127,
+      "mean_delta_group_gap": -0.005577212026091256,
+      "mean_delta_weighted_mean_group_gap": 0.00036048882116461456
+    },
+    {
+      "scheme": "KM2",
+      "forecaster": "persistence_quantile_interval",
+      "environments": 35,
+      "conflicts": 12,
+      "gcr": 0.34285714285714286,
+      "weighted_mean_group_conflicts": 7,
+      "weighted_mean_group_gcr": 0.2,
+      "mean_delta_user_gap": -0.012958022823224708,
+      "mean_delta_group_gap": -0.015470926784713023,
+      "mean_delta_weighted_mean_group_gap": -0.0032400194945357854
+    },
+    {
+      "scheme": "KM3",
+      "forecaster": "lightgbm_quantile",
+      "environments": 35,
+      "conflicts": 11,
+      "gcr": 0.3142857142857143,
+      "weighted_mean_group_conflicts": 10,
+      "weighted_mean_group_gcr": 0.2857142857142857,
+      "mean_delta_user_gap": -0.011503038523250127,
+      "mean_delta_group_gap": -0.007315917260395098,
+      "mean_delta_weighted_mean_group_gap": -0.001185875719984707
+    },
+    {
+      "scheme": "KM3",
+      "forecaster": "persistence_quantile_interval",
+      "environments": 35,
+      "conflicts": 9,
+      "gcr": 0.2571428571428571,
+      "weighted_mean_group_conflicts": 7,
+      "weighted_mean_group_gcr": 0.2,
+      "mean_delta_user_gap": -0.012958022823224708,
+      "mean_delta_group_gap": -0.015696751929294702,
+      "mean_delta_weighted_mean_group_gap": -0.0032367570496099145
+    },
+    {
+      "scheme": "KM4",
+      "forecaster": "lightgbm_quantile",
+      "environments": 35,
+      "conflicts": 7,
+      "gcr": 0.2,
+      "weighted_mean_group_conflicts": 11,
+      "weighted_mean_group_gcr": 0.3142857142857143,
+      "mean_delta_user_gap": -0.011503038523250127,
+      "mean_delta_group_gap": -0.015332225633978961,
+      "mean_delta_weighted_mean_group_gap": -0.0014672818724476117
+    },
+    {
+      "scheme": "KM4",
+      "forecaster": "persistence_quantile_interval",
+      "environments": 35,
+      "conflicts": 5,
+      "gcr": 0.14285714285714285,
+      "weighted_mean_group_conflicts": 5,
+      "weighted_mean_group_gcr": 0.14285714285714285,
+      "mean_delta_user_gap": -0.012958022823224708,
+      "mean_delta_group_gap": -0.020971458232935787,
+      "mean_delta_weighted_mean_group_gap": -0.003909103296578263
+    },
+    {
+      "scheme": "Ward3",
+      "forecaster": "lightgbm_quantile",
+      "environments": 35,
+      "conflicts": 10,
+      "gcr": 0.2857142857142857,
+      "weighted_mean_group_conflicts": 12,
+      "weighted_mean_group_gcr": 0.34285714285714286,
+      "mean_delta_user_gap": -0.011503038523250127,
+      "mean_delta_group_gap": -0.014230941789618149,
+      "mean_delta_weighted_mean_group_gap": -0.0013588129771682678
+    },
+    {
+      "scheme": "Ward3",
+      "forecaster": "persistence_quantile_interval",
+      "environments": 35,
+      "conflicts": 4,
+      "gcr": 0.11428571428571428,
+      "weighted_mean_group_conflicts": 6,
+      "weighted_mean_group_gcr": 0.17142857142857143,
+      "mean_delta_user_gap": -0.012958022823224708,
+      "mean_delta_group_gap": -0.04573701517815612,
+      "mean_delta_weighted_mean_group_gap": -0.004860809831727341
+    }
+  ]
+}

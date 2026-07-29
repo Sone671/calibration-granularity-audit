@@ -1,0 +1,112 @@
+{
+  "protocol": "FROZEN_P0_DYNAMIC_BASELINE_ADDENDUM.md",
+  "panel_rows": 700,
+  "predictor_window_observations": 70,
+  "methods": [
+    "aci_global",
+    "aci_segment",
+    "aci_user",
+    "pid_global",
+    "pid_segment",
+    "pid_user",
+    "raw",
+    "rolling_global_norm",
+    "rolling_group_norm",
+    "rolling_user_norm"
+  ],
+  "conflict_summary": [
+    {
+      "forecaster_key": "lgbm",
+      "windows": 35,
+      "static_conflicts": 11,
+      "aci_conflicts": 2,
+      "pid_conflicts": 0,
+      "static_gcr": 0.3142857142857143,
+      "aci_gcr": 0.05714285714285714,
+      "pid_gcr": 0.0
+    },
+    {
+      "forecaster_key": "persistence",
+      "windows": 35,
+      "static_conflicts": 9,
+      "aci_conflicts": 2,
+      "pid_conflicts": 0,
+      "static_gcr": 0.2571428571428571,
+      "aci_gcr": 0.05714285714285714,
+      "pid_gcr": 0.0
+    }
+  ],
+  "demand_tertile_conflict_summary": [
+    {
+      "forecaster_key": "lgbm",
+      "windows": 35,
+      "static_max_conflicts": 16,
+      "static_max_gcr": 0.45714285714285713,
+      "static_weighted_conflicts": 13,
+      "static_weighted_gcr": 0.37142857142857144,
+      "aci_max_conflicts": 2,
+      "aci_max_gcr": 0.05714285714285714,
+      "aci_weighted_conflicts": 4,
+      "aci_weighted_gcr": 0.11428571428571428,
+      "pid_max_conflicts": 0,
+      "pid_max_gcr": 0.0,
+      "pid_weighted_conflicts": 0,
+      "pid_weighted_gcr": 0.0
+    },
+    {
+      "forecaster_key": "persistence",
+      "windows": 35,
+      "static_max_conflicts": 11,
+      "static_max_gcr": 0.3142857142857143,
+      "static_weighted_conflicts": 11,
+      "static_weighted_gcr": 0.3142857142857143,
+      "aci_max_conflicts": 2,
+      "aci_max_gcr": 0.05714285714285714,
+      "aci_weighted_conflicts": 2,
+      "aci_weighted_gcr": 0.05714285714285714,
+      "pid_max_conflicts": 0,
+      "pid_max_gcr": 0.0,
+      "pid_weighted_conflicts": 0,
+      "pid_weighted_gcr": 0.0
+    }
+  ],
+  "static_reproduction_audit": [
+    {
+      "dataset": "London",
+      "forecaster": "lightgbm_quantile",
+      "rows": 44,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "dataset": "Ausgrid",
+      "forecaster": "lightgbm_quantile",
+      "rows": 48,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "dataset": "UCI Electricity",
+      "forecaster": "lightgbm_quantile",
+      "rows": 48,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "dataset": "London",
+      "forecaster": "persistence_quantile_interval",
+      "rows": 44,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "dataset": "Ausgrid",
+      "forecaster": "persistence_quantile_interval",
+      "rows": 48,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "dataset": "UCI Electricity",
+      "forecaster": "persistence_quantile_interval",
+      "rows": 48,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "bootstrap_repetitions": 10000
+}

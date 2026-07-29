@@ -1,0 +1,5 @@
+﻿construction,coverage,horizon_hours,environments,personalization_conflicts,personalization_conflict_rate,reverse_conflicts
+shared_0.1_0.9,0.9,1.0,35,3,0.08571428571428572,0
+shared_0.1_0.9,0.9,6.0,35,5,0.14285714285714285,0
+matched_0.05_0.95,0.9,1.0,35,11,0.3142857142857143,0
+matched_0.05_0.95,0.9,6.0,35,10,0.2857142857142857,0
