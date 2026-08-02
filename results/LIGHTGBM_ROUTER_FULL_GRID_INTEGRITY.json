@@ -1,0 +1,50 @@
+{
+  "protocol": "FROZEN_LIGHTGBM_ROUTER_FULL_GRID_ADDENDUM_2026-08-02.md",
+  "protocol_sha256": "f7bb0aa2b0fc13b2096987913b76d00a4ba1dbb718a46ccadf5fdd879a47c9a8",
+  "protocol_modified_time": 1785655003.472075,
+  "environment_counts": {
+    "Ausgrid": 48,
+    "London": 44,
+    "UCI Electricity": 48
+  },
+  "result_rows": 1400,
+  "fold_rows": 1260,
+  "primary_event_rows": 280,
+  "strategy_window_rows": 2800,
+  "width_aware_event_rows": 280,
+  "width_aware_strategy_window_rows": 2800,
+  "bootstrap_reps": 10000,
+  "seed": 20260802,
+  "reproduction": {
+    "aligned_rows": 350,
+    "selection_mismatches": 0,
+    "maximum_absolute_numeric_difference": 0.0,
+    "column_maximum_absolute_differences": {
+      "router_loss": 0.0,
+      "oracle_loss": 0.0,
+      "loss__rolling_global_norm": 0.0,
+      "loss__rolling_group_norm": 0.0,
+      "loss__rolling_user_norm": 0.0,
+      "cv_mean_gain_over_global__rolling_global_norm": 0.0,
+      "cv_mean_gain_over_global__rolling_group_norm": 0.0,
+      "cv_mean_gain_over_global__rolling_user_norm": 0.0,
+      "cv_lower_gain__rolling_global_norm": 0.0,
+      "cv_lower_gain__rolling_group_norm": 0.0,
+      "cv_lower_gain__rolling_user_norm": 0.0
+    },
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  "static_full_grid_reproduction": {
+    "aligned_rows": 140,
+    "maximum_absolute_loss_difference": 5.551115123125783e-17,
+    "policy_maximum_absolute_loss_differences": {
+      "rolling_global_norm": 5.551115123125783e-17,
+      "rolling_group_norm": 5.551115123125783e-17,
+      "rolling_user_norm": 5.551115123125783e-17
+    },
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  "builder_sha256": "8ca3530e438b232cdb0760c101ca7cefbb4bde94513ce0b6b68fdc27dab60777"
+}

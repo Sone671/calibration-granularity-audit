@@ -1,6 +1,5 @@
 {
   "repository": "calibration-granularity-audit",
-  "version": "1.1.0",
   "contains_raw_data": false,
   "files": [
     {
@@ -20,8 +19,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1065,
-      "sha256": "ba5f54893010460e5033973f64d3c6e2ca3cf527413a81802967c407a7f940af"
+      "bytes": 1051,
+      "sha256": "b3bba0fece342b4982c31480002e6cdd7c43d4c1525df1213f76a488aa52e4d8"
     },
     {
       "path": "code/build_aci_forward_report.py",
@@ -54,6 +53,11 @@
       "sha256": "cd150a8214088d633975cb9d97722937f6e65f3337696806015e23be0618d0dd"
     },
     {
+      "path": "code/build_lightgbm_router_full_grid_report.py",
+      "bytes": 28380,
+      "sha256": "8ca3530e438b232cdb0760c101ca7cefbb4bde94513ce0b6b68fdc27dab60777"
+    },
+    {
       "path": "code/build_p0_online_report.py",
       "bytes": 15613,
       "sha256": "d7c179c01e9130f830b0ab49320e8047089969902550734f671f477effd94283"
@@ -70,8 +74,8 @@
     },
     {
       "path": "code/diagnostic_metrics.py",
-      "bytes": 8479,
-      "sha256": "db99ec2a2048b4020a24e3ca43ec5be542d5034af4fa20c1fee1aa3f8cd3a40f"
+      "bytes": 16706,
+      "sha256": "30cd4812ca55e2588b2e34c6c6dd38130b3559b9ab3847e968fde5c22dbe00e8"
     },
     {
       "path": "code/generalized_granularity_router.py",
@@ -107,6 +111,11 @@
       "path": "code/run_lightgbm_full_grid.py",
       "bytes": 16233,
       "sha256": "4c7700017d3818314457a325d7f07ce5aa4dcbd3ba82839c26f3338e4e073453"
+    },
+    {
+      "path": "code/run_lightgbm_router_full_grid.py",
+      "bytes": 13040,
+      "sha256": "3beb0da72c476676265cd0498b7f0d4c008b1c76c0bb0a27cadb3412207d65b8"
     },
     {
       "path": "code/run_lightgbm_router_validation.py",
@@ -160,28 +169,28 @@
     },
     {
       "path": "docs/FROZEN_RELEASE_CHECKLIST.md",
-      "bytes": 871,
-      "sha256": "e66c02993e597fd683b6a02590e3a07ef7a44a613eac9387edf0e00920bfd7d3"
+      "bytes": 869,
+      "sha256": "b42664974a5ac9c50a2d48fa87e221f09cda6bb525ffc1e424d6555c19de52de"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 1827,
-      "sha256": "0f993f9502c99cfc3d453cb6c4152f57e3c4c25e1a99532ef9b3dc2e220da45b"
+      "bytes": 2789,
+      "sha256": "a094282cd34c03efe693d9ef5d106554c7d5bc282a159936dcfcdcb0e5f86420"
     },
     {
       "path": "docs/RESULTS_INDEX.md",
-      "bytes": 2013,
-      "sha256": "80cd730f76d1bafbdd97206e451f693577a3707d02770b4897f38b123de7584e"
+      "bytes": 2327,
+      "sha256": "cd4ec894d727d7718e4b0498f6bb2a1b300beac532777dec559c9b6617739cf6"
     },
     {
       "path": "docs/UPLOAD_CHECKLIST.md",
-      "bytes": 1411,
-      "sha256": "accec6efb95c4297e73962d14f4ab6c7c3af8a461188e157951d7fa2f2766fa9"
+      "bytes": 1361,
+      "sha256": "6d72c91cbdeb6d558cd3d2311448c316377d69b15b4a50937df1dbe83aa58ef4"
     },
     {
       "path": "docs/VERIFICATION_REPORT.md",
-      "bytes": 1412,
-      "sha256": "08eded66264df955a62a4cfd04d781c1313308312337b793bbc4d5f05f204297"
+      "bytes": 1935,
+      "sha256": "3e285fdc1c86b8deec20143c07251a1f52d80c4d9900cca9fb4e4c46c824a2cd"
     },
     {
       "path": "environment.yml",
@@ -239,6 +248,11 @@
       "sha256": "c055bedcc07ec33242c7419b98d7933555be04b315c5c6b64fd6231d3dc31dba"
     },
     {
+      "path": "protocols/FROZEN_LIGHTGBM_ROUTER_FULL_GRID_ADDENDUM_2026-08-02.md",
+      "bytes": 2570,
+      "sha256": "f7bb0aa2b0fc13b2096987913b76d00a4ba1dbb718a46ccadf5fdd879a47c9a8"
+    },
+    {
       "path": "protocols/FROZEN_MATCHED_LIGHTGBM_QUANTILE_ADDENDUM.md",
       "bytes": 1826,
       "sha256": "de6dc45168623e16cf43d433c90c8741eba765aae6fcac8bea0668281ea5b690"
@@ -265,8 +279,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3461,
-      "sha256": "fb19879da9dd7a94fec7ef28f79f393e2009276ffb7a560d3bf55844e28aecd8"
+      "bytes": 4346,
+      "sha256": "370cf1a952f026840f0b52fd55fd86064fd834a38a583688f1794d7fe0cf6ffa"
     },
     {
       "path": "requirements.txt",
@@ -312,6 +326,11 @@
       "path": "results/BALANCED_FULL_GRID_REPORT.json",
       "bytes": 62340,
       "sha256": "3865849c21791870664d5b1ec906c65bcd41b5f7ed470d7fb99e2978da13342a"
+    },
+    {
+      "path": "results/chronological_fold_metrics.csv",
+      "bytes": 278953,
+      "sha256": "0936c7ffe5fbe2cbd91c7c5e9659867ecd101c55f0ee93740d1a20bb08b0c926"
     },
     {
       "path": "results/CONFLICT_MAGNITUDE_PANEL.csv",
@@ -379,6 +398,36 @@
       "sha256": "9a569ee73c37ae0ba203eb3c4128587c6a95683df75b26a0c09d632157bc3790"
     },
     {
+      "path": "results/FULL_ROUTER_BASELINE_SUMMARY.csv",
+      "bytes": 1751,
+      "sha256": "9d008e9d6f44481be84f61b228a2381675cc2e3b34416fe6aa2207864af0e42e"
+    },
+    {
+      "path": "results/FULL_ROUTER_CONFIGURATION_SUMMARY.csv",
+      "bytes": 7092,
+      "sha256": "c6f7a8a3f1aaf986f664da92a020cd695514ad24f7b50b65b98f2ad239ca830f"
+    },
+    {
+      "path": "results/FULL_ROUTER_COVERAGE_HORIZON_SUMMARY.csv",
+      "bytes": 5072,
+      "sha256": "11bc09b4311e37cfceb9ffba0698b48e208a66ce302b3bb2ac1a5c0022e87cc7"
+    },
+    {
+      "path": "results/FULL_ROUTER_PAIRWISE_CI.csv",
+      "bytes": 10085,
+      "sha256": "d3ac9a0d129ed3fa37217dc751a1479872a9185e75ff0dc171e0f8a2e57ccb27"
+    },
+    {
+      "path": "results/FULL_ROUTER_WIDTH_AWARE_BASELINE_SUMMARY.csv",
+      "bytes": 1746,
+      "sha256": "c53306e9ca54985cd97249c0bd4de61f4c3490bd27bb4c550a5138e0e54c5d4a"
+    },
+    {
+      "path": "results/FULL_ROUTER_WIDTH_AWARE_PAIRWISE_CI.csv",
+      "bytes": 10080,
+      "sha256": "de4eaf73061dfcc481573e7b59e3d0f6a8b1f9fca1022daa07bb654469f6fc20"
+    },
+    {
       "path": "results/INFORMATION_REGIME_BLOCK_BOOTSTRAP.csv",
       "bytes": 85164,
       "sha256": "23384822b0b2ab0398228e8b5a2873611a067ea021e69fd6ec0139287ba5c0ba"
@@ -422,6 +471,16 @@
       "path": "results/LIGHTGBM_FULL_GRID_V2_ABORTED.md",
       "bytes": 747,
       "sha256": "a3ab412b6da7660170cb13a67fea6c63fe1f64b422ddde5ae1f319705763b2c2"
+    },
+    {
+      "path": "results/LIGHTGBM_ROUTER_FULL_GRID_COMPLETION_REPORT.md",
+      "bytes": 2419,
+      "sha256": "60dc151c877dab5411af6b7a67baf71cdac823b311989cb8ec9a01e5992dec95"
+    },
+    {
+      "path": "results/LIGHTGBM_ROUTER_FULL_GRID_INTEGRITY.json",
+      "bytes": 1766,
+      "sha256": "b75c9aae9df76e43684886c961130bf7a341483b65e75be2c89633e02f4cdb77"
     },
     {
       "path": "results/MATERIAL_CONFLICT_PROFILE.csv",
@@ -474,6 +533,21 @@
       "sha256": "749962ceaee0e303658063f1d11e90afc187b1cc1eab79cd0ac18366a2a6522f"
     },
     {
+      "path": "results/primary_event_choices.csv",
+      "bytes": 122604,
+      "sha256": "ad844ede01b7101233be65747c0c85de554b0a9294da7300c7bcdf45967aaa9f"
+    },
+    {
+      "path": "results/primary_strategy_window_results.csv",
+      "bytes": 330941,
+      "sha256": "a80537f70bbfe30b1748c7639409c281dffd2a6e3264d4f4498c6556a5fdebfc"
+    },
+    {
+      "path": "results/router_window_results.csv",
+      "bytes": 472563,
+      "sha256": "613cdd02ae6a42c824eadbb316292b93047d1ea8ace4bd76a8da160b5963e13f"
+    },
+    {
       "path": "results/STRICT_TCI_FULL_GRID.csv",
       "bytes": 34470,
       "sha256": "13e003a000eac3e1e7a186058ac0924107f08f44d91b072be835685410cbb932"
@@ -519,6 +593,16 @@
       "sha256": "aa0079884f05fdeac2223f4c0cf725e734fddf634d5e0c1c02414fbc6780d3a5"
     },
     {
+      "path": "results/width_aware_event_choices.csv",
+      "bytes": 122873,
+      "sha256": "1e9630283b3d9a565465aa4c574c8f26a4c286c921608826a740662b669b579c"
+    },
+    {
+      "path": "results/width_aware_strategy_window_results.csv",
+      "bytes": 330960,
+      "sha256": "c749f420f5f6fc2028c1948904551411464deda3dd656f66e01e235c28bf3d50"
+    },
+    {
       "path": "scripts/build_manifest.py",
       "bytes": 1071,
       "sha256": "0045b500f983f0711e3acac11fd2749c9c6fdab8b1454513d2963cc79856a075"
@@ -535,8 +619,8 @@
     },
     {
       "path": "tests/test_diagnostic_metrics.py",
-      "bytes": 2826,
-      "sha256": "fe3e799330a106a7a45ffc45f8dfc594ac80bc047bcd204b58bb7e4963ebdac8"
+      "bytes": 4060,
+      "sha256": "1ef0c43ef5b5a40883f9470a3a6cdfbf101b2a30e471a968503f943f12e0066d"
     },
     {
       "path": "tests/test_dynamic_controllers.py",
@@ -547,6 +631,11 @@
       "path": "tests/test_generalized_granularity_router.py",
       "bytes": 1536,
       "sha256": "00a20f63fbd1c14e5f31d5d7e8cafe4277f19a0cbbe42a8d52a402558a7c2251"
+    },
+    {
+      "path": "tests/test_lightgbm_router_full_grid_report.py",
+      "bytes": 2414,
+      "sha256": "9dba08dc53590a7fcebc8cfef3c14207bb6bc5b4f441740b3a5b5dc3de8947e9"
     }
   ]
 }

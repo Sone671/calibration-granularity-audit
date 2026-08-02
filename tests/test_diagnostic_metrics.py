@@ -39,3 +39,27 @@ def test_temporal_cancellation_and_oracle_gap():
     assert abs(tu["equal_window_temporal_cancellation_ratio"]-1.)<1e-12
     s90,_=dm.compute_all(window_rows,users90,target=.9);assert abs(s90["temporal_cancellation"][0]["pooled_user_gap"])<1e-12
     rog=dm.routing_oracle_gap(pd.DataFrame(window_rows),lambdas=(1.,));assert rog[0]["routing_oracle_gap"]>0
+
+
+def test_sign_baseline_and_stratified_conflict_stability():
+    alternating=pd.DataFrame([
+        {"window":"m1","method":"x","user_index":0,"coverage":.7,"n":100},
+        {"window":"m2","method":"x","user_index":0,"coverage":.9,"n":100},
+    ])
+    sign=dm.temporal_cancellation_sign_baseline(alternating,n_replicates=2000,seed=7)[0]
+    assert abs(sign["observed_temporal_cancellation_ratio"]-1.)<1e-12
+    assert .4<sign["sign_null_mean"]<.6
+    assert sign["excess_over_sign_null"]>.4
+
+    rows=[]
+    for user in range(20):
+        cluster=user//10
+        global_coverage=.75 if user%2==0 else .85
+        user_coverage=.82 if cluster==0 else .78
+        for method,coverage in (("rolling_global_norm",global_coverage),("rolling_user_norm",user_coverage)):
+            rows.append({"user_index":user,"cluster":cluster,"method":method,"coverage":coverage,"n":100})
+    stability=dm.stratified_conflict_stability(pd.DataFrame(rows),n_replicates=200,seed=7)
+    assert stability["observed_personalization_conflict"]
+    assert stability["observed_user_gap_difference_user_minus_global"]<0
+    assert stability["observed_segment_gap_difference_user_minus_global"]>0
+    assert 0<=stability["bootstrap_strict_conflict_share"]<=1

@@ -10,7 +10,7 @@ pytest -q tests
 python scripts/verify_repository.py
 ```
 
-The tests cover diagnostic metrics, Pareto conflict materiality, temporal cancellation, routing stability screening, efficiency penalties, and atomic PID panel updates.
+The ten tests cover diagnostic metrics, Pareto conflict materiality, temporal cancellation, routing stability screening, direct selector summaries, full-grid integrity checks, efficiency penalties, and atomic PID panel updates.
 
 ## 2. Rebuild revision evidence from frozen results
 
@@ -37,8 +37,22 @@ Representative command:
 python code/run_lightgbm_full_grid.py --prepared data/prepared/london --raw-dir data/raw/ausgrid --zip data/raw/uci/ElectricityLoadDiagrams20112014.zip --out outputs/lightgbm_full_grid
 ```
 
+The complete forward LightGBM routing grid uses the same explicit data paths:
+
+```bash
+python code/run_lightgbm_router_full_grid.py --datasets london ausgrid uci --prepared data/prepared/london --raw-dir data/raw/ausgrid --zip data/raw/uci/ElectricityLoadDiagrams20112014.zip --out outputs/lightgbm_router_full_grid_2026-08-02
+```
+
+After generating the complete LightGBM grid, the prior 80%/1 h reference, and the persistence routing grid, rebuild the combined summaries with:
+
+```bash
+python code/build_lightgbm_router_full_grid_report.py --run-dir outputs/lightgbm_router_full_grid_2026-08-02 --reference-dir outputs/lightgbm_router_validation --persistence-dir outputs/generalized_router_validation --static-panel results/BALANCED_FULL_GRID_PANEL.csv
+```
+
+The report builder verifies the 80%/1 h reference cell and the static LightGBM panel before producing combined comparisons.
+
 No target-month labels may enter static, ERW, or CSGR selection for that month. ACI/PID update only after a complete timestamp batch is observed.
 
 ## 4. Compare outputs
 
-Compare regenerated aggregate files with `results/` by schema, row count, declared tolerance, and paired differences. The frozen completion reports document zero-difference static reproduction checks and invalidated preliminary runs.
+Compare regenerated aggregate files with `results/` by schema, row count, declared tolerance, and paired differences. The completion reports document the zero-difference checks; invalidated preliminary grids remain available only as provenance records.

@@ -26,6 +26,7 @@ All files below are aggregate or audit outputs approved for public repository re
 - Half-life sensitivity and LightGBM transfer: `ERW_SENSITIVITY_*`.
 - Static CSGR routing and inference: `INFORMATION_REGIME_*`.
 - CSGR minimal ablation: `ablation_summary.csv` and `ablation_report.json`.
+- Complete LightGBM routing grid, combined two-backbone comparisons, direct selectors, and synchronized inference: `FULL_ROUTER_*` and `LIGHTGBM_ROUTER_FULL_GRID_*`.
 
 ## Immediate-feedback analyses
 
@@ -39,7 +40,8 @@ All files below are aggregate or audit outputs approved for public repository re
 
 ## Provenance and invalidation trail
 
-- `LIGHTGBM_FULL_GRID_COMPLETION_REPORT.md` identifies the accepted full grid.
+- `LIGHTGBM_ROUTER_FULL_GRID_COMPLETION_REPORT.md` summarizes the 280-decision routing grid and its backward-compatibility checks.
+- `LIGHTGBM_FULL_GRID_COMPLETION_REPORT.md` documents the validated target-matched static grid.
 - `LIGHTGBM_FULL_GRID_INVALIDATION.md` and `LIGHTGBM_FULL_GRID_V2_ABORTED.md` are retained so invalid preliminary grids cannot be mistaken for final evidence.
 - `TCI_WEIGHTING_CORRECTION_REPORT.md` records the common-weight correction.
 - `FINAL_REMAINING_REVISIONS_REPORT.md` summarizes final consistency checks.

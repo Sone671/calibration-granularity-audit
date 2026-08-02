@@ -133,6 +133,160 @@ def temporal_cancellation(user_window_frame,target=TARGET):
     return rows
 
 
+def temporal_cancellation_sign_baseline(user_window_frame, target=TARGET, n_replicates=2000, seed=20260802):
+    """Compare observed TCI with a magnitude-preserving zero-mean sign baseline.
+
+    The null keeps every user--environment absolute coverage error and its
+    effective-sample weight fixed, then assigns independent Rademacher signs.
+    It is an interpretability baseline, not a coverage-validity test: even
+    independent signs produce appreciable cancellation when several windows
+    are pooled.  The returned tail share is therefore labeled descriptively
+    rather than as a formal p-value.
+    """
+    if n_replicates <= 0:
+        raise ValueError("n_replicates must be positive")
+    rng=np.random.default_rng(seed)
+    rows=[]
+    for method,f in user_window_frame.groupby("method",sort=False):
+        user_errors=[];user_weights=[]
+        for _,z in f.groupby("user_index",sort=False):
+            z=z.sort_values("window")
+            errors=np.abs(z.coverage.to_numpy(float)-target)
+            weights=z.n.to_numpy(float)
+            if (not np.isfinite(errors).all() or not np.isfinite(weights).all()
+                    or np.any(weights<0) or weights.sum()<=0):
+                raise ValueError("sign baseline requires finite errors and positive sample weights")
+            user_errors.append(errors)
+            user_weights.append(weights/weights.sum())
+        if not user_errors:
+            continue
+        lengths={len(x) for x in user_errors}
+        if len(lengths)!=1:
+            raise ValueError("sign baseline requires the same number of environments per user")
+        errors=np.stack(user_errors)
+        weights=np.stack(user_weights)
+        denominator=float(np.mean(np.sum(weights*errors,axis=1)))
+        observed=temporal_cancellation(f,target=target)[0]["temporal_cancellation_ratio"]
+        null_tci=[]
+        # Chunking keeps memory bounded for a full user-by-window grid.
+        chunk_size=min(500,n_replicates)
+        for start in range(0,n_replicates,chunk_size):
+            size=min(chunk_size,n_replicates-start)
+            signs=2*rng.integers(0,2,size=(size,errors.shape[0],errors.shape[1]),dtype=np.int8)-1
+            pooled=np.abs(np.sum(signs*errors[None,:,:]*weights[None,:,:],axis=2)).mean(axis=1)
+            null_tci.append(1-pooled/max(denominator,1e-12))
+        null_tci=np.concatenate(null_tci)
+        rows.append({
+            "method":method,
+            "observed_temporal_cancellation_ratio":float(observed),
+            "sign_null_mean":float(null_tci.mean()),
+            "sign_null_q025":float(np.quantile(null_tci,.025)),
+            "sign_null_q500":float(np.quantile(null_tci,.5)),
+            "sign_null_q975":float(np.quantile(null_tci,.975)),
+            "excess_over_sign_null":float(observed-null_tci.mean()),
+            "sign_null_tail_share_at_least_observed":float(np.mean(null_tci>=observed)),
+            "n_users":int(errors.shape[0]),
+            "n_environments_per_user":int(errors.shape[1]),
+            "n_replicates":int(n_replicates),
+            "seed":int(seed),
+            "baseline":"independent Rademacher signs; absolute errors and within-user weights fixed",
+        })
+    return rows
+
+
+def stratified_conflict_stability(user_window_frame, target=TARGET, delta=.005, n_replicates=1000, seed=20260802):
+    """Assess whether a Global-versus-User conflict depends on a few users.
+
+    Users are resampled with replacement within their frozen operational
+    segment, while each sampled user's Global and User outcomes move together.
+    This captures cross-sectional stability of the two-level comparison.  It
+    intentionally does *not* claim a time-series confidence interval because
+    timestamp-level hits are not available in the summary panel.
+    """
+    if n_replicates<=0:
+        raise ValueError("n_replicates must be positive")
+    if delta<0:
+        raise ValueError("delta must be nonnegative")
+    policies=("rolling_global_norm","rolling_user_norm")
+    required={"user_index","cluster","method","coverage","n"}
+    missing=required-set(user_window_frame.columns)
+    if missing:
+        raise ValueError(f"missing columns for conflict stability: {sorted(missing)}")
+    f=user_window_frame[user_window_frame.method.isin(policies)].copy()
+    p=f.pivot(index=["user_index","cluster"],columns="method",values=["coverage","n"])
+    if not set(policies).issubset(set(p["coverage"].columns)):
+        raise ValueError("both Global and User policy rows are required")
+    p=p.dropna(subset=pd.MultiIndex.from_product([["coverage"],policies]))
+    coverage=p["coverage"].loc[:,policies].to_numpy(float)
+    counts=p["n"].loc[:,policies].to_numpy(float)
+    if not np.isfinite(coverage).all() or not np.isfinite(counts).all() or np.any(counts<=0):
+        raise ValueError("coverage and sample counts must be finite and positive")
+    if not np.allclose(counts[:,0],counts[:,1]):
+        raise ValueError("paired policies must have the same per-user sample count")
+    counts=counts[:,0]
+    clusters=p.index.get_level_values("cluster").to_numpy()
+    unique_clusters=pd.unique(clusters)
+    cluster_indices=[np.flatnonzero(clusters==cluster) for cluster in unique_clusters]
+
+    def two_level_gaps(cov, n):
+        user_gap=np.abs(cov-target).mean(axis=0)
+        segment_gaps=[]
+        for index in cluster_indices:
+            segment_coverage=(n[index,None]*cov[index]).sum(axis=0)/n[index].sum()
+            segment_gaps.append(np.abs(segment_coverage-target))
+        return user_gap,np.max(np.stack(segment_gaps),axis=0)
+
+    observed_user,observed_segment=two_level_gaps(coverage,counts)
+    observed_du=float(observed_user[1]-observed_user[0])
+    observed_dg=float(observed_segment[1]-observed_segment[0])
+    observed_strict=bool(observed_du<0 and observed_dg>0)
+    observed_pcm=float(min(-observed_du,observed_dg)) if observed_strict else 0.0
+
+    rng=np.random.default_rng(seed)
+    strict_hits=0;material_hits=0;du_samples=[];dg_samples=[]
+    chunk_size=min(250,n_replicates)
+    for start in range(0,n_replicates,chunk_size):
+        size=min(chunk_size,n_replicates-start)
+        user_gap_sum=np.zeros((size,2),float)
+        segment_gaps=[]
+        for index in cluster_indices:
+            sampled=index[rng.integers(0,len(index),size=(size,len(index)))]
+            sampled_coverage=coverage[sampled]
+            sampled_counts=counts[sampled]
+            user_gap_sum+=np.abs(sampled_coverage-target).sum(axis=1)
+            segment_coverage=(sampled_counts[:,:,None]*sampled_coverage).sum(axis=1)/sampled_counts.sum(axis=1)[:,None]
+            segment_gaps.append(np.abs(segment_coverage-target))
+        boot_user=user_gap_sum/len(coverage)
+        boot_segment=np.max(np.stack(segment_gaps),axis=0)
+        du=boot_user[:,1]-boot_user[:,0]
+        dg=boot_segment[:,1]-boot_segment[:,0]
+        strict=(du<0)&(dg>0)
+        material=(du<-delta)&(dg>delta)
+        strict_hits+=int(strict.sum());material_hits+=int(material.sum())
+        du_samples.append(du);dg_samples.append(dg)
+    du_samples=np.concatenate(du_samples);dg_samples=np.concatenate(dg_samples)
+    return {
+        "observed_user_gap_difference_user_minus_global":observed_du,
+        "observed_segment_gap_difference_user_minus_global":observed_dg,
+        "observed_personalization_conflict":observed_strict,
+        "observed_pareto_conflict_margin":observed_pcm,
+        "delta":float(delta),
+        "bootstrap_strict_conflict_share":float(strict_hits/n_replicates),
+        "bootstrap_material_conflict_share":float(material_hits/n_replicates),
+        "bootstrap_du_q025":float(np.quantile(du_samples,.025)),
+        "bootstrap_du_q500":float(np.quantile(du_samples,.5)),
+        "bootstrap_du_q975":float(np.quantile(du_samples,.975)),
+        "bootstrap_dg_q025":float(np.quantile(dg_samples,.025)),
+        "bootstrap_dg_q500":float(np.quantile(dg_samples,.5)),
+        "bootstrap_dg_q975":float(np.quantile(dg_samples,.975)),
+        "n_users":int(len(coverage)),
+        "n_segments":int(len(unique_clusters)),
+        "n_replicates":int(n_replicates),
+        "seed":int(seed),
+        "resampling":"paired user resampling within frozen segments; cross-sectional stability screen",
+    }
+
+
 def routing_oracle_gap(window_frame,policies=POLICIES,lambdas=LAMBDAS):
     rows=[]
     for lam in lambdas:

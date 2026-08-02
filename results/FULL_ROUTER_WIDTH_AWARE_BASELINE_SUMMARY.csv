@@ -1,0 +1,31 @@
+﻿strategy,scope,configuration_macro_mean_loss,selected_global,selected_segment,selected_user
+Month-wise oracle,LightGBM,0.047950565353578174,5,11,124
+Mean-fold minimum,LightGBM,0.04828561504658089,0,0,140
+Ex-post best fixed,LightGBM,0.04828561504658089,0,0,140
+User-CQR,LightGBM,0.04828561504658089,0,0,140
+CSGR,LightGBM,0.04830282897114724,2,1,137
+Latest-fold minimum,LightGBM,0.048451522463271356,2,3,135
+Follow-the-leader,LightGBM,0.049092889425725435,14,2,124
+Previous-window winner,LightGBM,0.049381957598955105,16,10,114
+Segment-CQR,LightGBM,0.05370725839788362,0,140,0
+Global-CQR,LightGBM,0.05899778020427812,140,0,0
+Month-wise oracle,Persistence,0.084352209061454,19,18,103
+CSGR,Persistence,0.08545146268158682,16,5,119
+Mean-fold minimum,Persistence,0.08577867786160291,11,4,125
+Latest-fold minimum,Persistence,0.08588475951005792,10,4,126
+Ex-post best fixed,Persistence,0.08608772186841085,0,0,140
+User-CQR,Persistence,0.08608772186841085,0,0,140
+Follow-the-leader,Persistence,0.08859630956523316,12,9,119
+Previous-window winner,Persistence,0.08899712685024778,30,18,92
+Segment-CQR,Persistence,0.09203390657885668,0,140,0
+Global-CQR,Persistence,0.10277466579058381,140,0,0
+Month-wise oracle,Combined,0.06615138720751608,24,29,227
+CSGR,Combined,0.06687714582636702,18,6,256
+Mean-fold minimum,Combined,0.06703214645409189,11,4,265
+Latest-fold minimum,Combined,0.06716814098666464,12,7,261
+Ex-post best fixed,Combined,0.06718666845749588,0,0,280
+User-CQR,Combined,0.06718666845749588,0,0,280
+Follow-the-leader,Combined,0.0688445994954793,26,11,243
+Previous-window winner,Combined,0.06918954222460144,46,28,206
+Segment-CQR,Combined,0.07287058248837015,0,280,0
+Global-CQR,Combined,0.08088622299743095,280,0,0

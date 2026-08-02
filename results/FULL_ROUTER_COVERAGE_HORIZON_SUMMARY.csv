@@ -1,0 +1,81 @@
+﻿forecaster,coverage,horizon_hours,strategy,loss,selected_global,selected_segment,selected_user
+LightGBM,0.8,1.0,Month-wise oracle,0.021775334843763417,2,0,33
+LightGBM,0.8,1.0,Latest-fold minimum,0.02188144715159082,2,0,33
+LightGBM,0.8,1.0,CSGR,0.021904539578096422,2,0,33
+LightGBM,0.8,1.0,User-CQR,0.02195120030148014,2,0,33
+LightGBM,0.8,1.0,Ex-post best fixed,0.02195120030148014,2,0,33
+LightGBM,0.8,1.0,Mean-fold minimum,0.022035132378575416,2,0,33
+LightGBM,0.8,1.0,Follow-the-leader,0.02260718432756574,2,0,33
+LightGBM,0.8,1.0,Previous-window winner,0.022685007393358936,2,0,33
+LightGBM,0.8,1.0,Segment-CQR,0.02633064815854859,2,0,33
+LightGBM,0.8,1.0,Global-CQR,0.031222264478827286,2,0,33
+LightGBM,0.8,6.0,Month-wise oracle,0.03456807688873884,0,0,35
+LightGBM,0.8,6.0,CSGR,0.03477044808170774,0,0,35
+LightGBM,0.8,6.0,Mean-fold minimum,0.03477044808170774,0,0,35
+LightGBM,0.8,6.0,User-CQR,0.03477044808170774,0,0,35
+LightGBM,0.8,6.0,Ex-post best fixed,0.03477044808170774,0,0,35
+LightGBM,0.8,6.0,Latest-fold minimum,0.035106979073666146,0,0,35
+LightGBM,0.8,6.0,Follow-the-leader,0.036023000310348156,0,0,35
+LightGBM,0.8,6.0,Previous-window winner,0.03624086036731739,0,0,35
+LightGBM,0.8,6.0,Segment-CQR,0.0430400053613596,0,0,35
+LightGBM,0.8,6.0,Global-CQR,0.05023676239406109,0,0,35
+LightGBM,0.9,1.0,Month-wise oracle,0.015971709022189428,0,0,35
+LightGBM,0.9,1.0,Latest-fold minimum,0.016280700880221693,0,0,35
+LightGBM,0.9,1.0,CSGR,0.01630948833149541,0,0,35
+LightGBM,0.9,1.0,Mean-fold minimum,0.01630948833149541,0,0,35
+LightGBM,0.9,1.0,User-CQR,0.01630948833149541,0,0,35
+LightGBM,0.9,1.0,Ex-post best fixed,0.01630948833149541,0,0,35
+LightGBM,0.9,1.0,Follow-the-leader,0.016989601565263784,0,0,35
+LightGBM,0.9,1.0,Previous-window winner,0.017145291356975904,0,0,35
+LightGBM,0.9,1.0,Segment-CQR,0.019996361410611535,0,0,35
+LightGBM,0.9,1.0,Global-CQR,0.02427983088020082,0,0,35
+LightGBM,0.9,6.0,Month-wise oracle,0.024962039370852136,1,1,33
+LightGBM,0.9,6.0,Mean-fold minimum,0.02572259390808329,1,1,33
+LightGBM,0.9,6.0,User-CQR,0.02572259390808329,1,1,33
+LightGBM,0.9,6.0,Ex-post best fixed,0.02572259390808329,1,1,33
+LightGBM,0.9,6.0,Latest-fold minimum,0.026117808659008212,1,1,33
+LightGBM,0.9,6.0,CSGR,0.026226982397646537,1,1,33
+LightGBM,0.9,6.0,Follow-the-leader,0.026388170175805623,1,1,33
+LightGBM,0.9,6.0,Previous-window winner,0.02697857693371399,1,1,33
+LightGBM,0.9,6.0,Segment-CQR,0.030262625168184214,1,1,33
+LightGBM,0.9,6.0,Global-CQR,0.035016600814372224,1,1,33
+Persistence,0.8,1.0,Month-wise oracle,0.03448921150564066,3,3,29
+Persistence,0.8,1.0,Mean-fold minimum,0.03528413781948702,3,3,29
+Persistence,0.8,1.0,CSGR,0.035460194619500694,3,3,29
+Persistence,0.8,1.0,Latest-fold minimum,0.035715853399672794,3,3,29
+Persistence,0.8,1.0,User-CQR,0.03604401337536054,3,3,29
+Persistence,0.8,1.0,Ex-post best fixed,0.03604401337536054,3,3,29
+Persistence,0.8,1.0,Follow-the-leader,0.03805016149352096,3,3,29
+Persistence,0.8,1.0,Previous-window winner,0.038304508440709394,3,3,29
+Persistence,0.8,1.0,Segment-CQR,0.039333333942769645,3,3,29
+Persistence,0.8,1.0,Global-CQR,0.05014397278609389,3,3,29
+Persistence,0.8,6.0,Month-wise oracle,0.06078063540583636,3,0,32
+Persistence,0.8,6.0,Latest-fold minimum,0.06225436906844415,3,0,32
+Persistence,0.8,6.0,CSGR,0.06226558552035937,3,0,32
+Persistence,0.8,6.0,Mean-fold minimum,0.06226558552035937,3,0,32
+Persistence,0.8,6.0,User-CQR,0.0626090851055232,3,0,32
+Persistence,0.8,6.0,Ex-post best fixed,0.0626090851055232,3,0,32
+Persistence,0.8,6.0,Follow-the-leader,0.06618373288723901,3,0,32
+Persistence,0.8,6.0,Previous-window winner,0.06738193921449397,3,0,32
+Persistence,0.8,6.0,Segment-CQR,0.07191985051886858,3,0,32
+Persistence,0.8,6.0,Global-CQR,0.08693753726826818,3,0,32
+Persistence,0.9,1.0,Month-wise oracle,0.02327985323314959,5,3,27
+Persistence,0.9,1.0,CSGR,0.02439512796428625,5,3,27
+Persistence,0.9,1.0,User-CQR,0.024439268229035246,5,3,27
+Persistence,0.9,1.0,Ex-post best fixed,0.024439268229035246,5,3,27
+Persistence,0.9,1.0,Mean-fold minimum,0.02456845556768573,5,3,27
+Persistence,0.9,1.0,Latest-fold minimum,0.024700026215916587,5,3,27
+Persistence,0.9,1.0,Previous-window winner,0.02593793389882615,5,3,27
+Persistence,0.9,1.0,Follow-the-leader,0.026057887272590008,5,3,27
+Persistence,0.9,1.0,Segment-CQR,0.026952330496743466,5,3,27
+Persistence,0.9,1.0,Global-CQR,0.03397441427185529,5,3,27
+Persistence,0.9,6.0,Month-wise oracle,0.04236758105886599,5,1,29
+Persistence,0.9,6.0,CSGR,0.04289642051438212,5,1,29
+Persistence,0.9,6.0,Mean-fold minimum,0.04460219323552056,5,1,29
+Persistence,0.9,6.0,Latest-fold minimum,0.04470152004163259,5,1,29
+Persistence,0.9,6.0,User-CQR,0.045004397226979666,5,1,29
+Persistence,0.9,6.0,Ex-post best fixed,0.045004397226979666,5,1,29
+Persistence,0.9,6.0,Previous-window winner,0.046793056878750246,5,1,29
+Persistence,0.9,6.0,Follow-the-leader,0.047117627744085365,5,1,29
+Persistence,0.9,6.0,Segment-CQR,0.05016737798152768,5,1,29
+Persistence,0.9,6.0,Global-CQR,0.060028964800710766,5,1,29

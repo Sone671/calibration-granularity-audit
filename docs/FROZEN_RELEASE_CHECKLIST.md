@@ -5,9 +5,9 @@
 - [x] Verify data URLs, archive/member checksums, ZIP CRC outcomes, and dataset licence notes.
 - [x] Exclude raw household observations, customer identifiers, trained model binaries, secrets, caches, and local paths.
 - [x] Exclude manuscript PDFs, LaTeX sources, figures, and supplementary files from the public repository.
-- [x] Run seven raw-data-free unit tests and repository manifest verification.
+- [x] Run ten raw-data-free unit tests and repository manifest verification.
 - [x] Record authors and the public repository URL in `CITATION.cff`.
 - [x] Apply MIT to repository-authored code and CC BY 4.0 to repository-authored documentation and aggregate results.
 - [ ] Add the article or archival DOI when assigned.
 
-Release: `v1.1.0` (2026-07-29).
+Release: `v1.2.0` (2026-08-02).
